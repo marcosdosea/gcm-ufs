@@ -1,7 +1,7 @@
 public class GerenciadorCliente{
 
 	public void inserirCliente(Cliente c){
-
+		return null;
 	}
 
 	public void alterarCliente(Cliente c){
@@ -14,5 +14,6 @@ public class GerenciadorCliente{
 
 
 	public void consultarCliente(Cliente c){
+	
 	}
 }
