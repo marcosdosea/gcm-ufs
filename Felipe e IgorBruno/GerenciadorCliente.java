@@ -1,7 +1,7 @@
 public class GerenciadorCliente{
 
 	public void inserirCliente(Cliente c){
-
+			retuen null;
 	}
 
 	public void alterarCliente(Cliente c){
