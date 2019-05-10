@@ -1,7 +1,7 @@
 public class GerenciadorCliente{
 
 	public void inserirCliente(Cliente c){
-		return null;
+		return c;
 	}
 
 	public void alterar(Cliente cliente){
@@ -11,7 +11,7 @@ public class GerenciadorCliente{
 	}
 
 	public void removerCliente(Cliente c){
-		return c;
+		remover(c);
 	}
 
 
