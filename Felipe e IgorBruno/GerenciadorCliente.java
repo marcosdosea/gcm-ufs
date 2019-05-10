@@ -1,11 +1,12 @@
 public class GerenciadorCliente{
 
 	public void inserirCliente(Cliente c){
-			retuen null;
+		return null;
 	}
 
 	public void alterar(Cliente cliente){
 		alterar(cliente);
+		return cliente;
 	}
 
 	public void removerCliente(Cliente c){
