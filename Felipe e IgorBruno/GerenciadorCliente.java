@@ -6,7 +6,7 @@ public class GerenciadorCliente{
 
 	public void alterar(Cliente cliente){
 		alterar(cliente);
-		return null;
+		return cliente;
 	}
 
 	public void removerCliente(Cliente c){
