@@ -6,6 +6,7 @@ public class GerenciadorCliente {
 	public deletar (Cliente clente){
 		List<Produto> list = new ArrayList<>();
 		return list;
+		return list01;
 	}
 	public void buscar(Cliente cliente){}
 }

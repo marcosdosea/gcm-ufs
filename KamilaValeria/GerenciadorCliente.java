@@ -11,7 +11,8 @@ public class soma {
 
 	}
 public void inserirCliente(Cliente cliente)
- {	
+ {
+	add cliente;	
 
  }
 public void atualizarCliente (cliente, cliente)
