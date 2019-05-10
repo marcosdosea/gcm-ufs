@@ -1,10 +1,10 @@
 public class GerenciadorCliente{
 
-	public void inserirCliente(Cliente c){
+	public void inserir(Cliente cliente){
 
 	}
 
-	public void alterarCliente(Cliente c){
+	public void alterar(Cliente cliente){
 	
 	}
 
