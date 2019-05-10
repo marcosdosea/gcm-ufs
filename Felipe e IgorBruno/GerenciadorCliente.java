@@ -11,7 +11,7 @@ public class GerenciadorCliente{
 	}
 
 	public void removerCliente(Cliente c){
-
+		remover(c);
 	}
 
 
