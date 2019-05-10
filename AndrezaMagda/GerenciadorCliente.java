@@ -5,6 +5,7 @@ public class GerenciadorCliente {
 	}
 
 	public void alterar(Cliente cliente) {
+		xxxxxxx;
 	}
 
 	public void remover(Cliente cliente){
