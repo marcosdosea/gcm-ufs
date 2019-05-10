@@ -8,8 +8,11 @@ public class GerenciadorCliente{
 	
 	}
 
-	public void remover(Cliente cliente){
+	public void removerCliente(Cliente c){
 
 	}
 
+
+	public void consultarCliente(Cliente c){
+	}
 }
