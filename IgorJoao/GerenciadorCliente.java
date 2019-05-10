@@ -5,5 +5,6 @@ public class GerenciadorCliente {
 	public void consultar (Cliente cliente){}
 	public deletar (Cliente clliente){
 		List<Cliente> list = new ArrayList<>();
+		return list;
 	}
 }
