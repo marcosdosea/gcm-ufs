@@ -1,10 +1,14 @@
 public class GerenciadorCliente{
 
 	public void inserirCliente(Cliente c){
+<<<<<<< HEAD
 			retuen null;
+=======
+		return null;
+>>>>>>> remotes/origin/master
 	}
 
-	public void alterarCliente(Cliente c){
+	public void alterar(Cliente cliente){
 	
 	}
 
@@ -14,5 +18,6 @@ public class GerenciadorCliente{
 
 
 	public void consultarCliente(Cliente c){
+	
 	}
 }
