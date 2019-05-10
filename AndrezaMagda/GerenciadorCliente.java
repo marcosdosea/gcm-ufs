@@ -5,12 +5,14 @@ public class GerenciadorCliente {
 	}
 
 	public void alterar(Cliente cliente) {
-		returnu null;
+		wwwww;
+		xxxxxxx;
 	}
 
 	public void remover(Cliente cliente){
 	}
 	
 	public void consultar(Cliente cliente){
+		consulta;
 	}
 }
