@@ -4,12 +4,15 @@ public class GerenciadorCliente{
 
 	}
 
-	public void alterar(Cliente c){
+	public void alterarCliente(Cliente c){
 	
 	}
 
-	public void remover(Cliente c){
+	public void removerCliente(Cliente c){
 
 	}
 
+
+	public void consultarCliente(Cliente c){
+	}
 }
