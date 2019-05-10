@@ -1,7 +1,7 @@
 public class GerenciadorCliente{
 
     public void inserir(Cliente c){
-    
+        return null;
     }
 
     public void atualizar(Cliente c){
