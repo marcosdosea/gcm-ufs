@@ -8,6 +8,12 @@ public class GerenciadorCliente {
 
 		return list01;
 	}
+<<<<<<< HEAD
 	public void buscar(Cliente cliente){}
 	public void calcular(Cliente cliente){}
+=======
+	public void buscar(Cliente cliente){
+		System.out.println();
+	}
+>>>>>>> ac15f5f0bcdb7562b91a7171659375f220775fd4
 }
