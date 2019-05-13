@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE note SYSTEM "cliente.dtd">
+<loja>
+	<cliente>
+		<nome>Joao</nome>
+		<CPF>066.169.125-07</CPF>
+		<Telefone>79981071307</Telefone> 
+		<Endereco>Rua José de Sá Barreto</Endereco>
+	</cliente>
+</loja>
