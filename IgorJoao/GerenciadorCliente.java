@@ -9,4 +9,5 @@ public class GerenciadorCliente {
 		return list01;
 	}
 	public void buscar(Cliente cliente){}
+	public void calcular(Cliente cliente){}
 }
