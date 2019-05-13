@@ -10,5 +10,15 @@ public class soma {
 		System.out.println(soma);
 
 	}
+public void inserirCliente(Cliente cliente)
+ {
+	add cliente;	
+
+ }
+public void atualizarCliente (cliente, cliente)
+ {
+        xxxx;
+		rerturn 0;
+ }
 
 }
