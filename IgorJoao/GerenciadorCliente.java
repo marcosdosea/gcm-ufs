@@ -9,4 +9,8 @@ public class GerenciadorCliente {
 		return list01;
 	}
 	public void buscar(Cliente cliente){}
+	public void treinar(Cliente cliente){}
+	public void consumir(Cliente cliente){}
+	public float accounting (float saldo){}
+	public int identificador(int k){}
 }
