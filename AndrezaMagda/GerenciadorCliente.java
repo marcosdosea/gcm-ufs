@@ -16,6 +16,7 @@ public class GerenciadorCliente {
 		consulta;
 	}
        public int contCliente (Cliente cliente){
+            consultar;
             return int;
         }
        public int somaCliente (Cliente cliente){
