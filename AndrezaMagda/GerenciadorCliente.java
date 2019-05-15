@@ -5,7 +5,6 @@ public class GerenciadorCliente {
 	}
 
 	public void alterar(Cliente cliente) {
-		wwwww;
 		xxxxxxx;
 	}
 
