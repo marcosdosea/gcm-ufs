@@ -12,5 +12,5 @@ public class GerenciadorCliente {
 	public void treinar(Cliente cliente){}
 	public void consumir(Cliente cliente){}
 	public float accounting (float saldo){}
-	public int identificador(int k){}
+	public int identificador(int u){}
 }
