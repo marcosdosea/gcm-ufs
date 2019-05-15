@@ -16,6 +16,6 @@ public class GerenciadorCliente{
 
 
 	public void consultarCliente(Cliente c){
-	
+		
 	}
 }
