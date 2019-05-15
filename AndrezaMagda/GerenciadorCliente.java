@@ -15,4 +15,19 @@ public class GerenciadorCliente {
 	public void consultar(Cliente cliente){
 		consulta;
 	}
+       public int contCliente (Cliente cliente){
+            return int;
+        }
+       public int somaCliente (Cliente cliente){
+            return int;
+        }
+       public int saldoCliente (Cliente cliente){
+            return int;
+        }
+       public void atualizarNome (Cliente cliente){
+            
+        }
+       public void identificarCliente (Cliente cliente){
+            
+        }
 }
