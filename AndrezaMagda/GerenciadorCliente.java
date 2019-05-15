@@ -21,8 +21,8 @@ public class GerenciadorCliente {
        public int somaCliente (Cliente cliente){
             return int;
         }
-       public int saldoCliente (Cliente cliente){
-            return int;
+       public double saldoCliente (Cliente cliente){
+            return double;
         }
        public void atualizarNome (Cliente cliente){
             
