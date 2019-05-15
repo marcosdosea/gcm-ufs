@@ -1,1 +1,1 @@
-public void calcular(Cliente cliente){}
+public void calcular(Cliente cliente, int js){}
