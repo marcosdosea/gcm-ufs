@@ -9,7 +9,7 @@ public class GerenciadorCliente {
 		return list01;
 	}
 <<<<<<< HEAD
-	public void buscar(Cliente cliente){}
+	public void buscar(Cliente cliente, int ks){}
 <<<<<<< HEAD
 	public void treinar(Cliente cliente){}
 	public void consumir(Cliente cliente){}
