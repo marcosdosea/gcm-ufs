@@ -1,4 +1,5 @@
 class GerenciadorCliente{
+	public class GerenciadorCliente{}
 	public void inserir(Cliente cliente){}
 	public void buscar(Cliente cliente){}
 	public void remover(Cliente cliente){}
