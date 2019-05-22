@@ -7,4 +7,5 @@ class GerenciadorCliente{
 	public void remover(Cliente cliente){}
 	public void exibir(Cliente cliente){}
 	public void alterar(Cliente cliente){}
+	public class GerenciadorCliente(){}
 }
