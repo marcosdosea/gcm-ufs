@@ -20,7 +20,7 @@ public class GerenciadorCliente{
 		//perCliente.buscarCliente(cpf);
 	}
 
-	public void verificarSaldoCliente(String cpf){
+	public boolean verificarSaldoCliente(String cpf){
 		//PersistenciaCliente perCliente = PersistenciaCliente();
 		//perCliente.verificarSaldoCliente(cpf);
 	}
