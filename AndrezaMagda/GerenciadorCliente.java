@@ -5,15 +5,15 @@ public class GerenciadorCliente {
 	}
 
 	public void alterar(Cliente cliente) {
+		wwwww;
 		xxxxxxx;
 	}
 
 	public void remover(Cliente cliente){
 	}
 	
-	public void consultar(Cliente cliente){
-		consulta;
-	}
+
+
 
        public int contCliente (Cliente cliente){
             consultar;
@@ -27,5 +27,5 @@ public class GerenciadorCliente {
         }
        public void atualizarNome (Cliente cliente){
             
-        }
+       }
 }

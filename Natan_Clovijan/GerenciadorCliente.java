@@ -1,19 +1,19 @@
-public GerenciadorCliente(){
+public Class GerenciadorCliente{
 
-}
+	public void inserir(Cliente cliente){
+		return null;
+	}
 
-public void inserir(){
+	public void alterar(Cliente cliente){
 
-}
+	}
 
-public void pesquisar(Cliente c){
+	public void consultar(Cliente cliente){
 
-}
+	}
 
-public void atualizar(Cliente c){
+	public void remover(Cliente cliente){
 
-}
-
-public void excluir(Cliente c){
-
+	}
+	
 }
