@@ -12,7 +12,5 @@ public class GerenciadorCliente {
 	public void remover(Cliente cliente){
 	}
 	
-	public void consultar(Cliente cliente){
-		consulta;
-	}
+	
 }
