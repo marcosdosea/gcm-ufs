@@ -1,4 +1,4 @@
-public GerenciadorCliente{
+public class GerenciadorCliente{
 
 
 	public void inserir(Cliente c){
