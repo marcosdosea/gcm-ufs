@@ -12,5 +12,14 @@ public class GerenciadorCliente {
 	public void remover(Cliente cliente){
 	}
 	
+	public void consulta(Cliente cliente){
+			rrr;
+	}
+
+	public void criar(Clinte cliente){
+		qqqqq;
+	}
+
+	
 	
 }
