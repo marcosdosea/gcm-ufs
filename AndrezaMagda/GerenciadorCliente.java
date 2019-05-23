@@ -27,7 +27,4 @@ public class GerenciadorCliente {
        public void atualizarNome (Cliente cliente){
             
         }
-       public void identificarCliente (Cliente cliente){
-            
-        }
 }
