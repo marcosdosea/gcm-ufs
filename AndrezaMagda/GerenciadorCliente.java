@@ -14,6 +14,7 @@ public class GerenciadorCliente {
 	public void consultar(Cliente cliente){
 		consulta;
 	}
+
        public int contCliente (Cliente cliente){
             consultar;
             return int;
