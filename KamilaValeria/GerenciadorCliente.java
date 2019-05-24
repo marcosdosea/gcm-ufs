@@ -47,7 +47,7 @@ public void alterarCliente (cliente, cliente)
 public int somar (conta, soma)
  {
         
-		rerturn 0;
+		rerturn conta+soma;
  }
 
 
