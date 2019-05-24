@@ -49,6 +49,34 @@ public int somar (conta, soma)
         
 		rerturn 0;
  }
+//Add by Valéria
+
+public int somar (conta, soma)
+ {
+        
+		rerturn conta+soma;
+ }
+
+public int abater (conta, soma)
+ {
+        
+		rerturn soma-conta;
+ }
+
+public void atualizarConta (conta)
+ {
+        
+ }
+
+public void inserirConta (conta)
+ {
+        
+ }
+
+public void atualizarCodigo (int cdg)
+ {
+        
+ }
 
 
 }
