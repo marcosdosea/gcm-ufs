@@ -21,4 +21,34 @@ public void atualizarCliente (cliente, cliente)
 		rerturn 0;
  }
 
+
+public void deletarCliente (cliente, cliente)
+ {
+        
+		rerturn 0;
+ }
+
+
+public void pesquisarCliente (cliente, cliente)
+ {
+        
+		rerturn 0;
+ }
+public void cadastrarCliente (cliente, cliente)
+ {
+        
+		rerturn 0;
+ }
+public void alterarCliente (cliente, cliente)
+ {
+        
+		rerturn 0;
+ }
+public int somar (conta, soma)
+ {
+        
+		rerturn 0;
+ }
+
+
 }
