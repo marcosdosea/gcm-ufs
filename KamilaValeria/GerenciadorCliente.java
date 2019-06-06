@@ -47,7 +47,35 @@ public void alterarCliente (cliente, cliente)
 public int somar (conta, soma)
  {
         
-		rerturn 0;
+		rerturn conta+soma;
+ }
+//Add by Valéria
+
+public int somar (conta, soma)
+ {
+        
+		rerturn conta+soma;
+ }
+
+public int abater (conta, soma)
+ {
+        
+		rerturn soma-conta;
+ }
+
+public void atualizarConta (conta)
+ {
+        
+ }
+
+public void inserirConta (conta)
+ {
+        
+ }
+
+public void atualizarCodigo (int cdg)
+ {
+        
  }
 
 
