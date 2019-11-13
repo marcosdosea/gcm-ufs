@@ -14,5 +14,6 @@ public class GerenciadorCliente {
 	}
 	
 	public void consultar(Cliente cliente){
+		return null;
 	}
 }
