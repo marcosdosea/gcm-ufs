@@ -10,6 +10,7 @@ public class GerenciadorCliente {
 	}
 
 	public void remover(Cliente cliente){
+		System.out.println("Removido com sucesso");
 	}
 	
 	public void consultar(Cliente cliente){
