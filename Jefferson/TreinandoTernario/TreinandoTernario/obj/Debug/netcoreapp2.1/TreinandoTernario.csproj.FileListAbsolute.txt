@@ -1,0 +1,11 @@
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\bin\Debug\netcoreapp2.1\TreinandoTernario.deps.json
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\bin\Debug\netcoreapp2.1\TreinandoTernario.runtimeconfig.json
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\bin\Debug\netcoreapp2.1\TreinandoTernario.runtimeconfig.dev.json
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\bin\Debug\netcoreapp2.1\TreinandoTernario.dll
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\bin\Debug\netcoreapp2.1\TreinandoTernario.pdb
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\obj\Debug\netcoreapp2.1\TreinandoTernario.csprojAssemblyReference.cache
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\obj\Debug\netcoreapp2.1\TreinandoTernario.csproj.CoreCompileInputs.cache
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\obj\Debug\netcoreapp2.1\TreinandoTernario.AssemblyInfoInputs.cache
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\obj\Debug\netcoreapp2.1\TreinandoTernario.AssemblyInfo.cs
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\obj\Debug\netcoreapp2.1\TreinandoTernario.dll
+C:\Users\jeffd\Documents\07_gitHub\CSharp_COMPLETO_2019_Programacao_Projeto-\Secao_07\TreinandoTernario\TreinandoTernario\obj\Debug\netcoreapp2.1\TreinandoTernario.pdb
