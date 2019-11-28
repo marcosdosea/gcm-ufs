@@ -5,8 +5,8 @@ public class GerenciadorCliente {
 		return n
 	}
 
-	public void alterar(Cliente cliente) {
-		returnu null;
+	public int alterar(Cliente cliente) {
+		returnu 2;
 	}
 
 	public void remover(Cliente cliente){
