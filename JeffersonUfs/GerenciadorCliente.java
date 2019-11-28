@@ -5,7 +5,7 @@ public class GerenciadorCliente {
 		return n
 	}
 
-	public void alterar(Cliente cliente) {
+	public double alterar(Cliente cliente) {
 		returnu null;
 	}
 
