@@ -1,3 +1,3 @@
 public void consultar(Cliente cliente){
-		consulta;
+		return Pacienteconsulta;
 	}
