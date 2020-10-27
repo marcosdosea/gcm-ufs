@@ -1,6 +1,10 @@
 public class Calculadora {
 
-	public int soma (int num1, int num2) {
+	public float soma (float num1, float num2) {
 		return num1 + num2;
+	}
+	
+	public float subtracao (float num1, float num2) {
+		return num1 - num2;
 	}
 }
