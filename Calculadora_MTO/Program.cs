@@ -61,15 +61,15 @@ namespace Calculadora_MTO
         }
 
         public int pot(int param1, int param2){
-            this.result = param1;
-
+           
             if(param2<0){
                 System.Console.WriteLine("Método não suporta potencia com valores negativos.");
                 return 0;
             }
             if(param2 == 0)
                 return 1;
-
+                
+            this.result = param1;
             for(int i=0;i<param2;i++)
                 this.result *= param1;
 
