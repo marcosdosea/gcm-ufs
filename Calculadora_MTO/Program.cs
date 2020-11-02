@@ -40,9 +40,9 @@ namespace Calculadora_MTO
 
         public int divisao(int param1, int param2)
         {
-            if (param2 > 0)
+            if (param2 != 0)
             {
-                this.result = param1 + param2;
+                this.result = param1 / param2;
 
             }
             else
@@ -55,17 +55,22 @@ namespace Calculadora_MTO
 
         }
 
+        public int resto(int param1, int param2){
+            if(param2 == 0)
+                return 0;
+            this.result  =  param1 % param2;
+            return this.result;
+
+        }
+
+
         public int multiplicacao(int param1, int param2)
         {
             this.result = param1 * param2;
             return this.result;
         }
 
-        public int resto(int param1, int param2){
-            this.result  =  param1 % param2;
-            return this.result;
 
-        }
 
         public int pot(int param1, int param2){
            
