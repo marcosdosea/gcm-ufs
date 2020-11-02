@@ -14,6 +14,7 @@ namespace Calculadora_MTO
             System.Console.WriteLine("{0} / {1} = {2}", 150, 5, calculadora.divisao(2, 5));
             System.Console.WriteLine("{0} * {1} = {2}", 2, 5, calculadora.multiplicacao(2, 5));
             System.Console.WriteLine("{0} ^ {1} = {2}", 2, 5, calculadora.pot(2, 5));
+            System.Console.WriteLine("{0} ^ {1} = {2}", 150, 11, calculadora.resto(150, 11));
         }
     }
 
@@ -58,6 +59,12 @@ namespace Calculadora_MTO
         {
             this.result = param1 * param2;
             return this.result;
+        }
+
+        public int resto(int param1, int param2){
+            this.result  =  param1 % param2;
+            return this.result;
+
         }
 
         public int pot(int param1, int param2){
