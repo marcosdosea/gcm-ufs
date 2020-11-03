@@ -10,4 +10,5 @@ public int inserir(Cliente cliente) {
 	
 public int remove(idCliente) {
 	idCliente = null;
-}
+};;;
+;;;;----
