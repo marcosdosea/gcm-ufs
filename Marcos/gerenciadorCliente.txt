@@ -1,5 +1,9 @@
 public class GerenciadorCliente{
 	public int inserir(Cliente cliente) {
-  		
+  		// Código
+	}
+	
+	public int alterarDados(Cliente cliente){
+		// Código 	
 	}
 }
