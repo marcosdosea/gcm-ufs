@@ -2,8 +2,7 @@
 public class GerenciadorCliente{
 	public int inserir(Cliente cliente) {
   		// Código
-	}
-	
+      
 	public int alterarDados(Cliente cliente){
 		for (int i = 0; i < alunos.length; i++) {    
 			if(this.alunos[i] == null) {  
