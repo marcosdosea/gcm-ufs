@@ -1,6 +1,9 @@
 public class GerenciadorCliente {
-	public int inserir(Cliente cliente) {
-		// o código não precisa compilar. É apenas para exercitar a inclusão de linhas de código
+	public int adicionarCliente(Cliente cliente) {
+		usuario = new Dados();
+        usuario.setNome(nome);
+        usuario.setLogin(login);
+        usuario.setCargo(cargo);
 	}
 }
 
