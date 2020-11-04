@@ -17,6 +17,12 @@ public class GerenciadoraVenda{
 
     }
 
+    
+    public Boolean validaVenda(){
+
+        return this.id != 0 && this.valor>0 && this.id_cliente!=0 ? true:false;
+        
+    }
 
     public Boolean update(GerenciadoraVenda venda){
         if(venda)
