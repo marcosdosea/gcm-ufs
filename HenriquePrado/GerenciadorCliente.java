@@ -1,4 +1,10 @@
 public class GerenciadorCliente {
+
+	public int adicionarCliente(Cliente cliente) {
+		usuario = new Dados();
+        usuario.setNome(nome);
+        usuario.setLogin(login);
+        usuario.setCargo(cargo);
 	public int alterarDados(Cliente cliente) {
 		StringBuilder sql = new StringBuilder("UPDATE  cliente SET ");
 		sql.append("nome = '").append(Jnome.getText()).append("',");
@@ -22,6 +28,7 @@ public class GerenciadorCliente {
 	
 	public int remove(idCliente) {
 		idCliente = null;
+
 	}
 }
 
