@@ -7,4 +7,10 @@ public class GerenciadorCliente{
     this.nome = cliente.nome;
     return 1;
   }
+
+  public int atualizar(Cliente cliente){
+    this.id = cliente.id;
+    this.nome = cliente.nome;
+    daoCliente.update(cliente);
+  }
 }
