@@ -3,7 +3,8 @@ public class GerenciadorVenda{
   protected String desc;
   protected float valor;
 
-  protected GerenciadorCliente cliente;
+  protected GerenciadorCliente cliente = GerenciadorCliente();
+  protected DAOVenda daoVenda = DAOVenda();
 
   public int realizarVenda(Venda venda){
     this.id = venda.id;
@@ -11,5 +12,9 @@ public class GerenciadorVenda{
     this.valor = venda.valor;
     
     cliente.inserir(venda.id_cliente);
+  }
+
+  public int removerVenda(Venda venda){
+    DAOVenda.delete();
   }
 }
