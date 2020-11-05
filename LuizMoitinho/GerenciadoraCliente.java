@@ -4,7 +4,8 @@ public class GerenciadoraCliente{
     protected int id;
     protected String nome;
     protected String endereco;
-    
+    protected String CPF;
+
     private DAOCliente DAOCliente = new DAOCliente();
 
 
@@ -12,6 +13,7 @@ public class GerenciadoraCliente{
         this.id = cliente.id;
         this.nome = cliente.nome;
         this.endereco = cliente.endereco;
+        this.CPF = cliente.CPF;
         
         return 1;
         
