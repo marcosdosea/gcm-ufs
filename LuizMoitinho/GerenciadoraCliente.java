@@ -2,6 +2,7 @@
 
 public class GerenciadoraCliente{
     protected int id;
+    protected String dataNascimento;
     protected String nome;
     protected String endereco;
     protected String CPF;
@@ -13,6 +14,7 @@ public class GerenciadoraCliente{
         this.id = cliente.id;
         this.nome = cliente.nome;
         this.endereco = cliente.endereco;
+        this.dataNascimento = cliente.dataNascimento;
         this.CPF = cliente.CPF;
         
         return 1;
