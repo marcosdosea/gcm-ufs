@@ -2,7 +2,7 @@
 
 public class GerenciadoraCliente{
     protected int id;
-    protected Strin dataNascimento;
+    protected String dataNascimento;
     protected String nome;
     protected String endereco;
     
