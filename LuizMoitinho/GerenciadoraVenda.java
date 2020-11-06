@@ -30,4 +30,22 @@ public class GerenciadoraVenda{
         return false;
     }
 
+
+    public getJson(){
+        return
+            "{
+                id:"+this.id+",
+                id_cliente:"+this.id_cliente+",
+                nome:"+this.nome+",
+                valor:"+this.valor+",
+                cliente:{
+                    id:"+this.cliente.id+",
+                    nome:"+this.cliente.nome+",
+                    id:"+this.cliente.endereco+"
+                }
+            }";
+
+    }
+
+
 }
