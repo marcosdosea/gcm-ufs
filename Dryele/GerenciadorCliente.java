@@ -5,5 +5,5 @@ public class GerenciadorCliente{
 		cliente.codigo = 1;
 		cliente.nome = "Maria"
 	}
-		
+	
 }
