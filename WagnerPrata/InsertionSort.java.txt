@@ -1,7 +1,5 @@
 public static void insertionSort(int[] vetor) {
-    int j;
-    int key;
-    int i;
+    int j, key ,i;
 
     for (j = 1; j < vetor.length; j++)
     {
