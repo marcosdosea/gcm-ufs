@@ -6,6 +6,7 @@ public class GerenciadorCliente{
 		cliente.nome = "Maria"
 	}
 	
+	
 	public void remover(){
 	
 	}

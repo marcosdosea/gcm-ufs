@@ -4,5 +4,7 @@ public class GerenciadorVenda{
 		cliente.codigo = 2;
 		cliente.nome = "João"
 	}
-	
+	public void remover(){
+		
+	}
 }
