@@ -9,4 +9,8 @@ public class  GerenciadorCliente{
 
 	}
 
+	public void editar_cliente(Cliente cliente){
+
+	}
+
 }
