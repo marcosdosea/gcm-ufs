@@ -3,4 +3,7 @@ public class GerenciadorCliente{
 	{
 		public int oi;	
 	}
+	public void Atualizar(Cliente cliente)
+	{
+	}
 }
