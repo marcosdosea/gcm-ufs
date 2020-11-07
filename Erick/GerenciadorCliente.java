@@ -6,4 +6,8 @@ class GerenciadorCliente {
     public int remover(Cliente cliente) {
         return ClienteDAO.remove(cliente);
     }
+
+    public int editar(Cliente cliente) {
+        return ClienteDAO.edit(cliente);
+    }
 }
