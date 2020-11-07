@@ -5,4 +5,10 @@ public class GerenciadorVenda{
 	g.inserir(c);
 
 
+	public void nova_venda(Cliente C)
+	{
+
+	}
+
+
 }

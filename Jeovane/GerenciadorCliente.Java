@@ -6,7 +6,7 @@ public class GerenciadorCliente{
 	public void Remover(Cliente cliente)
 	{
 	}
-	public void Atualizar(Cliente cliente)
+  public void Atualizar(Cliente cliente)
 	{
 	}
 }
