@@ -5,4 +5,12 @@ public class  GerenciadorCliente{
 
 	}
 
+	public void remover_cliente(Cliente cliente){
+
+	}
+
+	public void editar_cliente(Cliente cliente){
+
+	}
+
 }
