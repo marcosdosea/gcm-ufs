@@ -1,8 +1,20 @@
 public class GerenciadorCliente(){
     public int inserir(Cliente cliente) {
 
-        // o código não precisa compilar. É apenas para exercitar a inclusão de linhas de código
+        // insere cliente, logo, create
 
+    }
+
+    public void read(Cliente cliente) {
+        // faz a leitura do cliente
+    }
+
+    public void update(Cliente cliente) {
+        // faz a atualização do cliente
+    }
+
+    public void delete(Cliente cliente) {
+        // faz a remoção do cliente
     }
 
 }
