@@ -7,6 +7,7 @@ public class  GerenciadorCliente{
 
 	public void remover_cliente(Cliente cliente){
 
+
 	}
 
 }
