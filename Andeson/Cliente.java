@@ -19,6 +19,9 @@ public class Cliente{
         }
         return false;
     }
+    public removerCliente(Cliente cliente){
+        this.cliente = null; 
+    }
 }
 
 public class Venda{
