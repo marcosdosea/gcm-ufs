@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Date;
 
 public class Cliente{
     private int codigo;
@@ -23,12 +24,12 @@ public class Cliente{
 
 public class Venda{
     private int codigo;
-    private String data;
+    private Date data;
     private String valorTotal;
 
     public Venda(Cliente cliente){
         this.codigo = new Random().nextInt();
-        this.data = "12/10/2020";
+        this.data = new Date();
         cliente.alteraLimite(-this.valorTotal);
     }
 }
