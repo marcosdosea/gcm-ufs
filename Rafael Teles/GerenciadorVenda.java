@@ -12,4 +12,9 @@ public class GerenciadorVenda(){
 	c1.nomeCliente = "João";
 	
 	c1.status();
+	
+	public void addVenda(ItemVenda venda){
+		//codigo para nova venda
+		vendaArrayList.append(venda);
+	}
 }
