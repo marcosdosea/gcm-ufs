@@ -17,5 +17,10 @@ public class GerenciadorCliente(){
 		return 1;
 	}
 	
+	public int atualizar(Cliente cliente){
+		//código para atualizar cliente
+		return 1;
+	}
+	
 }
 
