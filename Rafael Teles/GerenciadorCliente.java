@@ -17,5 +17,11 @@ public class GerenciadorCliente(){
 		return 1;
 	}
 	
+	public void remover( Cliente cliente){
+		
+		clienteArrayList.remove(cliente);
+		
+	}
+	
 }
 
