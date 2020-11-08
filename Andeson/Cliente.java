@@ -19,6 +19,10 @@ public class Cliente{
         }
         return false;
     }
+    public Cliente alterarCliente(String nome,int cpf){
+        this.nome = cliente.nome;
+        this.cpf = cliente.cpf;
+    }
 }
 
 public class Venda{
