@@ -7,6 +7,7 @@ public class GerenciadorVendas{
     	this.id = venda.id;
 	this.valor = venda.valor;
  	
+	// 1 ok
 	return(1);   
     }
 }
