@@ -10,4 +10,8 @@ public class GerenciadorCliente{
 	
 	}
 	
+	public void listar(){
+	
+	}
+	
 }
