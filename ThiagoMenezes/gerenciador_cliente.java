@@ -7,4 +7,8 @@ public class GerenciadorCliente
         this.id = id;
         this.nome = nome;
     }
+
+    public int excluirCliente(){
+        
+    }
 }
