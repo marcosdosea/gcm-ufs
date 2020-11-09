@@ -9,7 +9,10 @@ public class GerenciadorCliente{
     }
 }
 
-public void remover_cliente(Cliente cliente){
+  public void atualizar_cliente(Cliente cliente){
 
+} 
+
+  public void remover_cliente(Cliente cliente){
 
 }
