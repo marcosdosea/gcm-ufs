@@ -1,5 +1,6 @@
 public class GerenciadorCliente{
-  public void inserirCliente(Cliente Cliente){
 
-  }
+    public void excluirCliente(int codigo){
+
+    }
 }
