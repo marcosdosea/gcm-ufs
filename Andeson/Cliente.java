@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Date;
 
 public class Cliente{
     private int codigo;
@@ -19,19 +20,25 @@ public class Cliente{
         }
         return false;
     }
+
     public removerCliente(Cliente cliente){
         this.cliente = null; 
+    }
+    public Cliente alterarCliente(String nome,int cpf){
+        this.nome = cliente.nome;
+        this.cpf = cliente.cpf;
+
     }
 }
 
 public class Venda{
     private int codigo;
-    private String data;
+    private Date data;
     private String valorTotal;
 
     public Venda(Cliente cliente){
         this.codigo = new Random().nextInt();
-        this.data = "12/10/2020";
+        this.data = new Date();
         cliente.alteraLimite(-this.valorTotal);
     }
 }
