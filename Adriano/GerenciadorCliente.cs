@@ -1,11 +1,11 @@
 public class GerenciadorCliente {   
     public int Id { get; set; }
-    public string Nome { get; set; }
+    public boolean Status { get; set; }
 
     public GerenciadorCliente() {}
     
-    public GerenciadorCliente(int id, string nome) {
+    public GerenciadorCliente(int id, string status) {
         Id = id;
-        Nome = nome;
+        Status = status;
     }
 }
