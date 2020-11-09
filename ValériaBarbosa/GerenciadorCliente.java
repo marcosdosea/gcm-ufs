@@ -3,6 +3,9 @@ public class GerenciadorCliente{
 
     }
     public void excluirCliente(int codigo){
-        
+
+    }
+    public void editarCliente(Cliente cliente){
+
     }
 }
