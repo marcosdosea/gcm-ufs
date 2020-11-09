@@ -17,5 +17,13 @@ public class GerenciadorCliente(){
 		return 1;
 	}
 	
+	public void atualizar(Cliente cliente){
+		//codigo de atualizar cliente
+		updateName.addActionListener(
+ 		new AtualizandoRegistro( idCliente,nomeCliente ) );
+ 		add( updateName );
+	
+	}
+	
 }
 
