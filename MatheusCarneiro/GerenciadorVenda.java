@@ -3,5 +3,6 @@ public class GerenciadorVenda {
 		GerenciadorCliente ger = new GerenciadorCliente();
 		Cliente cli = new Cliente();
 		ger.inserir(cli);
+		ger.excluir(cli);
 	}
 }
