@@ -1,10 +1,11 @@
 public class GerenciadorCliente{
+
   public int excluirCliente(int cdg){
       if(cdg ==codigo){
          cliente[cdg] = null
-      }else{
+      else
          return -1;
-       }
+       
    }
 
 }
