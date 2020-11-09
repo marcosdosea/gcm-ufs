@@ -8,3 +8,8 @@ public class GerenciadorCliente{
         this.nome = cliente.nome;
     }
 }
+
+public void remover_cliente(Cliente cliente){
+
+
+}
