@@ -3,7 +3,12 @@ public class Cliente {
         
     }
 
-    public int remover(int cod) {
+    public boolean remover(int cod) {
         // metodo remover
+        if(cod == 1) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
