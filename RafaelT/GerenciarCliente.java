@@ -22,7 +22,12 @@ public class GerenciadorCliente(){
 		updateName.addActionListener(
  		new AtualizandoRegistro( idCliente,nomeCliente ) );
  		add( updateName );
-	
+  }
+  
+	public void remover( Cliente cliente){
+		
+		clienteArrayList.remove(cliente);
+		
 	}
 	
 }
