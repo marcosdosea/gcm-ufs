@@ -15,4 +15,8 @@ public class GerenciadorCliente {
     public void AddCliente(Cliente cliente) {
         Clientes.Add(cliente);
     }
+
+    public void RemoverCliente(Cliente cliente) {
+        Clientes.Remove(cliente);
+    }
 }
