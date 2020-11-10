@@ -6,4 +6,9 @@ public class GerenciadorCliente {
     {
         add cliente;	
     }
+
+     public void RemoverCliente(Cliente cliente)
+    {
+        remove cliente;	
+    }
 }
