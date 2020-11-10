@@ -5,8 +5,8 @@ public class GerenciadorVenda {
     public Cliente Cliente { get; set; }
 
     public GerenciadorVenda(int id, Cliente cliente) {
-        this.Id = id;
-        this.Cliente = cliente;
+        Id = id;
+        Cliente = cliente;
     }
 
 }
