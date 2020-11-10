@@ -1,6 +1,7 @@
 public class GerenciadorCliente{
-
+	public Cliente _cliente;
 	public int inserir(Cliente cliente){
-		//todo implementar a logica de inserção
+		_cliente = cliente;
+		return cliente.cod;
 	}
 }
