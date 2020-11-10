@@ -1,5 +1,11 @@
 public class GerenciadorCliente {   
     public int Id { get; set; }
+    public string Nome { get; set; }
+    
+    public GerenciadorCliente(int id, string nome) {
+        Id = id;
+        Nome = nome;
+      
     public boolean Status { get; set; }
     
     public ICollection <Cliente> Clientes { get; set; } 
