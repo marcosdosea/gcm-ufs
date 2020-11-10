@@ -7,6 +7,7 @@ public class GerenciadorCliente{
 	} 
 	public void Remover(Cliente cliente) { 
 		print("estou removendo um cliente");
+		print("removido");
 
 	} 
 	public void Atualizar(Cliente cliente) { 
