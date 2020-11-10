@@ -3,4 +3,11 @@ public class GerenciadorCliente{
 	public int inserir(Cliente cliente){
 		//todo implementar a logica de inserção
 	}
+
+	public Cliente BuscarCliente (int cod){
+		if(_cliente.cod == cod)
+			return _cliente;
+		else
+			return null;
+	}
 }
