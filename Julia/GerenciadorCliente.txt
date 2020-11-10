@@ -4,4 +4,11 @@ public class GerenciadorCliente{
 		_cliente = cliente;
 		return cliente.cod;
 	}
+
+	public Cliente BuscarCliente (int cod){
+		if(_cliente.cod == cod)
+			return _cliente;
+		else
+			return null;
+	}
 }
