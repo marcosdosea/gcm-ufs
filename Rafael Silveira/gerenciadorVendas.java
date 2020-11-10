@@ -7,4 +7,8 @@ public class Vendas {
     public int removerVenda(Cliente cliente, int codigo)    {
 	// Codigo para remover vendas
     }
+
+    public int alterarVenda(Cliente cliente, int codigo)    {
+	// Codigo para remover vendas
+    }	
 }
