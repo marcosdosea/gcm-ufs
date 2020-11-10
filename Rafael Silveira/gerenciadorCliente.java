@@ -13,4 +13,8 @@ public class Cliente {
         this.nome = cliente.nome;
         this.cpf = cliente.CPF;
     }
+    
+    public Cliente removerCliente(){
+
+    }
 }
