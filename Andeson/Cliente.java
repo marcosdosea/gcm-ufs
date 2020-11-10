@@ -20,9 +20,14 @@ public class Cliente{
         }
         return false;
     }
+
+    public removerCliente(Cliente cliente){
+        this.cliente = null; 
+    }
     public Cliente alterarCliente(String nome,int cpf){
         this.nome = cliente.nome;
         this.cpf = cliente.cpf;
+
     }
 }
 
