@@ -3,7 +3,7 @@ public class GerenciadorCliente {
    private String nome;
    
    private String cpf;
-   
+   // Codigo do Produto.
    private int cod;
     
    
