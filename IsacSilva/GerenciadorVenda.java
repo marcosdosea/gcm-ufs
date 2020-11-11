@@ -16,13 +16,14 @@ public class GerenciadorVenda
         System.out.println("Informe o cpf do Cliente ");
         
         String cpf = l.nextLine();
+        // Solicitará ao usuario o codigo do produto
+        System.out.println("Informe o codigo do Produto: ");
+        
+        String cod = l.nextLine();
         
         GerenciadorCliente cliente = new GerenciadorCliente();
         
         cliente.setNome(nome);
         cliente.setCpf(cpf);
-		
-		// chamada do metodo exibirCliente da classe GerenciadorCliente.
-		cliente.exibirCliente()
-     }
+<<<<<
 }

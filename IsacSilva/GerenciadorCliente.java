@@ -3,6 +3,8 @@ public class GerenciadorCliente {
    private String nome;
    
    private String cpf;
+   // Codigo do Produto.
+   private int cod;
     
    
    public GerenciadorCliente(){
@@ -33,5 +35,15 @@ public class GerenciadorCliente {
 	public void exibirCliente(){
 		System.out.println("Nome: "+getNome()+"\nCPF: "+getCpf()+"\nCodigo do Produto: "+getCod());
 	}
+   
+   public String getCod(){
+   
+   return cod;
+   }
+   
+   public void setCod(String cod){
+   
+   this.cod = cod;
+   } 
    
 }
