@@ -21,5 +21,8 @@ public class GerenciadorVenda
         
         cliente.setNome(nome);
         cliente.setCpf(cpf);
+		
+		// chamada do metodo exibirCliente da classe GerenciadorCliente.
+		cliente.exibirCliente()
      }
 }
