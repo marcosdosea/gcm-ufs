@@ -3,6 +3,8 @@ public class GerenciadorCliente {
    private String nome;
    
    private String cpf;
+   
+   private int cod;
     
    
    public GerenciadorCliente(){
@@ -29,5 +31,15 @@ public class GerenciadorCliente {
    
    this.cpf = cpf;
    }
+   
+   public String getCod(){
+   
+   return cod;
+   }
+   
+   public void setCod(String cod){
+   
+   this.cod = cod;
+   } 
    
 }
