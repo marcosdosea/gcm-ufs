@@ -31,6 +31,10 @@ public class GerenciadorCliente {
    
    this.cpf = cpf;
    }
+   // Metodo para exibir as infromações armazenadas nos atributos da classe.
+	public void exibirCliente(){
+		System.out.println("Nome: "+getNome()+"\nCPF: "+getCpf()+"\nCodigo do Produto: "+getCod());
+	}
    
    public String getCod(){
    

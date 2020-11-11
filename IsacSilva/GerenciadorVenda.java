@@ -25,7 +25,5 @@ public class GerenciadorVenda
         
         cliente.setNome(nome);
         cliente.setCpf(cpf);
-		//Armazenará o codigo do produto na instancia da classe GerenciadorCliente
-		cliente.setCod(cod);
-     }
+<<<<<
 }
