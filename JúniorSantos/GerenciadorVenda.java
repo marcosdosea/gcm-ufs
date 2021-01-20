@@ -4,4 +4,9 @@ public class GerenciadorVenda{
 		gerenciadorCliente = new GerenciadorCliente();
 		gerenciadorCliente.inserir()
 	}
+	
+	public int adicionarVenda(Venda venda) {
+		vendas.add(venda);
+	}
+
 }
