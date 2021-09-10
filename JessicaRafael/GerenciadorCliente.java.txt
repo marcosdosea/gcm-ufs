@@ -1,0 +1,6 @@
+Class Cliente{
+	void manterCliente(){
+	
+	}
+
+}
