@@ -11,7 +11,7 @@ class GerenciadorCliente {
         return ClienteDAO.remove(cliente);
     }
 
-    public int edit(Cliente cliente) {
-        return ClienteDAO.edit(cliente);
+    public int alter(Cliente cliente) {
+        return ClienteDAO.alter(cliente);
     }
 }
