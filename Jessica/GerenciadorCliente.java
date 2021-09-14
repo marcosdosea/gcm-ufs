@@ -7,11 +7,11 @@ class GerenciadorCliente {
         return ClienteDAO.consultar(cliente);
     }
 
-    public int remove(Cliente cliente) {
-        return ClienteDAO.remove(cliente);
+    public int remover(Cliente cliente) {
+        return ClienteDAO.remover(cliente);
     }
 
-    public int alter(Cliente cliente) {
-        return ClienteDAO.alter(cliente);
+    public int alterar(Cliente cliente) {
+        return ClienteDAO.alterar(cliente);
     }
 }
