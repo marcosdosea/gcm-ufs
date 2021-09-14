@@ -1,17 +1,17 @@
 class GerenciadorCliente {
-    public int inserir(Cliente cliente) {
+    public int insert(Cliente cliente) {
         ClienteDAO.insert(cliente);
     }
 
-    public int consultar(Cliente cliente) {
+    public int consult(Cliente cliente) {
         return ClienteDAO.consult(cliente);
     }
 
-    public int remover(Cliente cliente) {
+    public int remove(Cliente cliente) {
         return ClienteDAO.remove(cliente);
     }
 
-    public int editar(Cliente cliente) {
-        return ClienteDAO.edit(cliente);
+    public int alter(Cliente cliente) {
+        return ClienteDAO.alter(cliente);
     }
 }
