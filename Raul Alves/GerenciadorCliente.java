@@ -5,4 +5,10 @@ public class GerenciadorCliente {
     public void ConsultarCliente() {
         
     }
+    public void AlterarCliente() {
+    
+    }
+    public void RemoverCliente() {
+        
+    }
 }
