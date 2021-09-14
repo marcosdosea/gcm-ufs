@@ -1,10 +1,10 @@
 class GerenciadorCliente {
-    public int insert(Cliente cliente) {
-        ClienteDAO.insert(cliente);
+    public int inserir(Cliente cliente) {
+        ClienteDAO.inserir(cliente);
     }
 
-    public int consult(Cliente cliente) {
-        return ClienteDAO.consult(cliente);
+    public int consultar(Cliente cliente) {
+        return ClienteDAO.consultar(cliente);
     }
 
     public int remove(Cliente cliente) {
