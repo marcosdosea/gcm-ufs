@@ -16,9 +16,8 @@ class GerenciadorCliente
     public void inserir(Cliente cliente){
         this._clienteList.add(cliente);
     }
-    public void remover(int clienteId){
-        var clienteToRemove = this._clienteList.SingleOrDefault(c => c.Codigo == clienteId);
-        if (clienteToRemove != null)
-        this._clienteList.Remove(clienteToRemove);
-    } 
+     
+    public Cliente buscar(int clientId){
+        return this._clienteList.Find(cliente => cliente.codigo == clientId);
+    }
 }
