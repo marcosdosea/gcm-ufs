@@ -6,4 +6,10 @@ public class GerenciadorCliente{
     <Cliente> getCliente (int idCliente){
         //metodo aqui
     }
+    boolean removeCliente (int idCliente){
+        //metodo aqui
+    }
+    boolean alteraCliente (Object Cliente){
+        //metodo aqui
+    }
 }
