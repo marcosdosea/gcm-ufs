@@ -4,3 +4,6 @@ public class GerenciadorVenda{
     private String Vendedor;
     
 }
+ public void set_Vendedor(String Vendedor){
+     this.Vendedor = Vendedor;
+ }
