@@ -5,4 +5,10 @@ public class GerenciadorCliente{
     <Cliente> getCliente (int idCliente){
         //desenvolvimento nesse local
     }
+    boolean removeCliente (int idCliente){
+        //desenvolvimento nesse local
+    }
+    boolean alteraCliente (Object Cliente){
+        //desenvolvimento nesse local
+    }
 } 
