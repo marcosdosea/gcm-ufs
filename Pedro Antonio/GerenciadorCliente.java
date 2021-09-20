@@ -6,6 +6,7 @@ public class GerenciadorCliente() {
     public void consultar_cliente(String nome){
 
     }
+
     public void remover_cliente(String nome){
 
     }
