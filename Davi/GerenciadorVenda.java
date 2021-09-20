@@ -1,6 +1,6 @@
 class GerenciadorVenda
 {
-    private GerenciadorCliente clientes = new GerenciadorCliente();
+    private clientes = new GerenciadorCliente();
     function novaVenda(){
         clientes.inserir();
     } 
