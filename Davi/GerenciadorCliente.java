@@ -1,6 +1,4 @@
 class GerenciadorClienter {
-    function inserir(){}
-    function consultar(){}
-    function remover(){}
-    function alterar(){}
+    public void inserir(){}
+    public void consultar(){}
 }
