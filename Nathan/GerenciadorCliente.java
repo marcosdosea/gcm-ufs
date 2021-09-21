@@ -7,4 +7,13 @@ public class GerenciadorCliente{
     getClient (int idClient){
         //metodo aqui
     }
+
+    boolean removeClient(int idClient){
+        //metodo aqui
+    }
+
+    boolean alteraClient(int idClient){
+        //metodo aqui
+    }
+
 }
