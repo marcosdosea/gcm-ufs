@@ -1,15 +1,14 @@
-public Class Galerax{
+public class Galerax{
     int AnoDeFabricacao;
     String Criador;
     double CapacidadeAnalitica;
     int NivelDeAmeaca;
-
-    public Galerax(AnoDeFabricacao, Criador, CapacidadeAnalitica, NivelDeAmeaca){
+    public Galerax(int AnoDeFabricacao, String Criador, double CapacidadeAnalitica, int NivelDeAmeaca){
         this.AnoDeFabricacao = AnoDeFabricacao;
         this.Criador = Criador;
         this.CapacidadeAnalitica = CapacidadeAnalitica;
         this.NivelDeAmeaca = NivelDeAmeaca;
-    }
+    }   
     private void DestruirOMundo(){
         System.out.println("Destruindo o mundo");
     }
@@ -21,7 +20,7 @@ public Class Galerax{
     }
     public void DecisaoFinal(){
         int random = (int) (Math.random() * 3);
-        System.out.prinln("Decisão final: " + random);
+        System.out.println("Decisão final: " + random);
         if(random == 0){
             DestruirOMundo();
         }else if(random == 1){

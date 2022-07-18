@@ -1,0 +1,25 @@
+.mydiv{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.nyancat{
+    width: 400px;
+    height: 400px;
+    
+    background-image: url("img/nyancat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+#body{
+    background-color: rgb(9, 42, 48);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
