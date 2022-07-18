@@ -1,4 +1,4 @@
 public class GerenciadorCliente{
     String nomeCliente;
-    int cod;
+    int cod; 
 }
