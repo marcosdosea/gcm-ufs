@@ -6,6 +6,7 @@ public class Calculadora {
 	* @param num2 segundo número
 	*/
 	public int soma(int num1, int num2) {
+        // melhorar desempenho da implementação
 		return num1 + num2;
 	}
 }
