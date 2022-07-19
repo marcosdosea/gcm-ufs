@@ -1,5 +1,8 @@
 public class GerenciadorCliente{
-    public void atualizar(){
+    public void inserirCliente(String NomeCliente){
+
+    }
+       public void atualizar(){
         
     }
 }
