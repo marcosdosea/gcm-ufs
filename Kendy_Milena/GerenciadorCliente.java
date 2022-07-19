@@ -1,7 +1,7 @@
-public class Produto {
+public class Cliente {
 
   private String nome;
-  private int Numero;
+  private int numero;
 
   
 
