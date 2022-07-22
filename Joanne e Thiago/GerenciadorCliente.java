@@ -1,3 +1,3 @@
 private static void main(String args[]) {
-    Calc c = new Calc();
+    Pessoa p = new Pessoa("Juan");
 }
