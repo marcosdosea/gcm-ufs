@@ -1,3 +1,3 @@
-class Clientes {
+class Cliente {
 
 }
