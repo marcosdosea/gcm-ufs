@@ -1,3 +1,6 @@
 private static void main(String args[]) {
-    Pessoa p = new Pessoa("Juan");
+    Cliente cliente = new Cliente();
+    cliente.setNome("Joanne e Thiago");
+    
+    Pessoa people = new Pessoa("Juanito");
 }
