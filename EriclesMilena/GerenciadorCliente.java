@@ -3,6 +3,6 @@ class Cliente {
         System.out.println("Cliente atualizado");
     }
     public void inserir(){
-        System.out.println("Inserir");
+        System.out.println("Cliente inserido");
     }
 }
