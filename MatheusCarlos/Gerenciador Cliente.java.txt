@@ -1,0 +1,5 @@
+private CriarCliente(clente Cliente){
+
+
+	return Cliente;
+}
