@@ -1,4 +1,4 @@
-public class Cliente{
+public class User{
     private String nome;
     private int idade;
     private String endereco;
