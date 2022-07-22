@@ -1,4 +1,4 @@
-private AtualizarCliente(clente Cliente){
+private CriarCliente(clente Cliente){
 
 
 	return Cliente;
