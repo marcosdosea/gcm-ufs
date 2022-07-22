@@ -1,0 +1,3 @@
+public class GerenciadorVendas{
+   System.out.println("Vendas efetuado com sucesso");
+}

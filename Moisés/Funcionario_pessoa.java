@@ -1,4 +1,4 @@
-public class Funcionario extends Pessoa{
+public class Funcionario_Pessoa extends Pessoa{
     private int id;
     private float salario;
     private String funcao;
