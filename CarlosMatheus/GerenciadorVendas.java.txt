@@ -1,0 +1,9 @@
+private CriarVenda(clente Cliente){
+
+
+	return Cliente;
+}private AtualizarVenda(clente Cliente){
+
+
+	return Cliente;
+}
