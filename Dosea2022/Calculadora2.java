@@ -9,9 +9,12 @@ public class Calculadora {
         // melhorar desempenho da implementação
 		return num1 + num2;
 	}
+<<<<<<< HEAD
 	
 	public int subtracao(int num1, int num2) {
         // melhorar desempenho da implementação
 		return num1 - num2;
 	}
+=======
+>>>>>>> d021b7f64b1fcd430dbe2ffc63f604fb6c317817
 }
