@@ -1,8 +1,13 @@
 <<<<<<< HEAD
 public class GerenciadorCliente {
      public static void main(String[] args) {
+<<<<<<< HEAD
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+=======
        // System.out.println("Hello World!");
        System.out.println("Hello World!");
+>>>>>>> 22a6eb447c82614745482b00bb94f20ce29df287
     }
 }
 =======
