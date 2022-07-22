@@ -1,0 +1,3 @@
+public class GerenciadorPagamentos{
+   System.out.println("Pagamento efetuado com sucesso");
+}
