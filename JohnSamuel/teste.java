@@ -1,0 +1,2 @@
+publi class test{
+}
