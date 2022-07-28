@@ -1,2 +1,0 @@
-publi class test{
-}

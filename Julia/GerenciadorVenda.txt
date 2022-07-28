@@ -1,6 +1,0 @@
-public class GerenciadorVenda{
-	private Cliente cliente = new Cliente();
-	public Cliente BuscarClienteParaVenda(int cod){
-		return cliente.BuscarClientes(cod);
-	}
-}
