@@ -9,10 +9,10 @@ public class GerenciadorCliente{
 		this.idadeC = idade;
 	}
 
-	public int consultarCliente(String nome){
+	public String consultarCliente(String nome){
 		if(nome.equals(this.nomeC))
-			return idadeC;
+			return nomeC;
 		else
-			return -1;
+			return new String("-1");
 	}
 }
