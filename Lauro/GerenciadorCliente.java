@@ -8,5 +8,13 @@ public class GerenciadorCliente{
         /*codigos aqui */
         return this;
     }
+    boolean removeCliente(int idCliente){
+	/*código aqui */
+        return true;
+    }
+    boolean alteraCliente(int idCliente){
+        /*código aqui */
+        return true;
+    }
 
 }
