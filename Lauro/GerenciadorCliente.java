@@ -1,7 +1,14 @@
 package Lauro;
 
-public class GerenciadorCliente {
+public class GerenciadorCliente{
     
+    boolean inserirCliente (Object Client){
+        /*codigos aqui */
+    }
+    Object consultarCliente (int idClient){
+        /*codigos aqui */
+        return this;
+    }
     boolean removeCliente(int idCliente){
         /*código aqui */
         return true;
@@ -11,4 +18,5 @@ public class GerenciadorCliente {
         /*código aqui */
         return true;
     }
+
 }
