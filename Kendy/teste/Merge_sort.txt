@@ -1,3 +1,0 @@
-sim_update_clone
-
--- ordenação de listas

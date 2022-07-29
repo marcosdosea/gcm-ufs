@@ -1,6 +1,0 @@
-<<<<<<< .mi
-<<<
-resolve
-=======
-false
->>>>>>> .theirs
