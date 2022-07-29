@@ -20,16 +20,4 @@ class GerenciadorCliente{
     public void consultar() {
         System.out.println("Nome do gerenciador de clientes: " + name);
     }
-
-    // Apaga nome do gerenciador de clientes
-    public boolean remover(){
-        name = " ";
-        return true;
-    }
-
-    // Altera o nome do gerenciador de clientes
-    public boolean alterar(String name) {
-        this.name = name;
-        return true
-    }
 }
