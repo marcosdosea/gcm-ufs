@@ -13,8 +13,13 @@ public class Cliente{
 		this.cliente.add(nome)	
 	
 	}
-	//removendo o cliente da lista
+	//consultando o cliente da lista
 	public void RemoverCliente (String nome){
-		this.cliente.add(nome)
+		for(String cont : cliente){		
+			if (cont.equals(nome))
+				Systen.out.println(cliente)
+			else
+				Systme.out.println("Cliente nao encrontado")
+		}
 	}	
 }
