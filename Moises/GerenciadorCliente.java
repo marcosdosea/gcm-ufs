@@ -1,4 +1,13 @@
 public class GerenciadorCliente{
+     
+    //inserir
+    public void inserir(){
+
+    }
+    //consultar
+    public void consultar(){
+
+    }
     //remover
     public void remover(){
 
@@ -7,4 +16,5 @@ public class GerenciadorCliente{
     public void alterar(){
         
     }
+
 }
