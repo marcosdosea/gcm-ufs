@@ -4,11 +4,14 @@ public class GerenciadorVenda {
     int codigo;
     String nome;
     
+    GerenciadorCliente cliente;
+
     public GerenciadorVendas(double valor, int quantidade, int codigo, String nome) {
         this.valor = valor;
         this.quantidade = quantidade;
         this.codigo = codigo;
         this.nome = nome;
+        cliente = nome;
     }
 
     public double getValor() {
