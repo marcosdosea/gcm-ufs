@@ -1,6 +1,6 @@
 class GerenciadorCliente{
     public void Inserir (){
-  
+        
     }
     public void Consultar (){
     
@@ -11,5 +11,4 @@ class GerenciadorCliente{
     public void Alterar(){
     
     }
-
 }
