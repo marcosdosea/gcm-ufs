@@ -17,5 +17,16 @@ public class GerenciadoraCliente{
     public int getId(){
         return this.id;
     }
+    
+public void AlterarDados{
+    //codigo aqui
+}
+    
+    public Boolean remover(Cliente cliente){
+        if(cliente)
+           return this.ACliente.delete(cliente);
+        return false;
+
+    }
 
 }
