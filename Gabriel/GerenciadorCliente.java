@@ -1,3 +1,4 @@
+
 public class GerenciadorCliente {
     private String name;
 
@@ -37,5 +38,5 @@ public class GerenciadorCliente {
         this.name = name;
         return true;
     }
-
 }
+
