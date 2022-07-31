@@ -1,5 +1,3 @@
-//package com.mycompany.atividade2;
-
 /**
  *
  * @author thiago
