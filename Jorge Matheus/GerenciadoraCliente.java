@@ -9,9 +9,7 @@ public class GerenciadoraCliente{
         this.id = cliente.id;
         this.nome = cliente.nome;
         this.endereco = cliente.endereco;
-        
         return 1;
-        
     }
 
     public int getId(){
@@ -22,7 +20,7 @@ public void AlterarDados{
     //codigo aqui
 }
     
-    public Boolean remover(Cliente cliente){
+public Boolean remover(Cliente cliente){
         if(cliente)
            return this.ACliente.delete(cliente);
         return false;
