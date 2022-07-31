@@ -1,4 +1,3 @@
-//package cm.mycompany.atividade2;
 /**
  *
  * @author thiago
