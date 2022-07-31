@@ -19,4 +19,21 @@ class GerenciadorCliente {
         else
             System.out.println(nome+" não está cadastrado no sistema.");
     }
+
+    public void remover(int code){
+        if(code == codigo)
+            System.out.println(nome+" removido do sistema.");
+        else
+            System.out.println(nome+" não está cadastrado no sistema.");
+    }
+
+    public void alterar(int code, String name, String street){
+        if(code == codigo){
+            this.nome = name;
+            this.endereco = street;
+            System.out.println(nome+" alterado no sistema.");
+        }
+        else
+            System.out.println(nome+" não está cadastrado no sistema.");
+    }
 }
