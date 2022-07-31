@@ -14,7 +14,7 @@ class GerenciadorCliente {
     }
 
     public void consultar(int code){
-        if(code == codigo)
+        if(code == codigo) 
             System.out.println(nome+" ja está cadastrado no sistema.");
         else
             System.out.println(nome+" não está cadastrado no sistema.");
