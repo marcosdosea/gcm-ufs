@@ -1,14 +1,14 @@
 class GerenciadorCliente{
     private String name;
         
-    public GerenciadorCliente{
+    public GerenciadorCliente(){
         name = " ";
     }
 
     //Inseri o nome para o gerenciador de cliente
     public boolean inserir(String name){
 
-        if(name != " ") {
+        if(name.equals(" ")) {
             this.name = name;
             return true;
         }
