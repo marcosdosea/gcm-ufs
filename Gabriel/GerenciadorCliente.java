@@ -1,11 +1,11 @@
-class GerenciadorCliente {
+public class GerenciadorCliente {
     private String name;
 
     public GerenciadorCliente() {
         name = " ";
     }
 
-    // Inseri o nome para o gerenciador de cliente
+    // Inseri o nome para o cliente
     public boolean inserir(String name) {
 
         if (name.equals(" ")) {
@@ -16,12 +16,12 @@ class GerenciadorCliente {
         return false;
     }
 
-    // Retorna o nome do responsável por gerenciar os clientes
+    // Retorna o nome do cliente
     public void consultar() {
         System.out.println("Nome do gerenciador de clientes: " + name);
     }
 
-    // Remove o gerenciador cliente se ele possuir um nome
+    // Remove o nome do cliente se ele possuir um 
     public boolean remover() {
         if(!name.equals(" ")) {
             name = " ";
@@ -31,7 +31,7 @@ class GerenciadorCliente {
         return false;
     }
 
-    // Altera o nome do gerenciador de cliente e retorna um true para notificar que
+    // Altera o nome do cliente e retorna um true para notificar que
     // a modificação foi feita com sucesso.
     public boolean alterar(String name) {
         this.name = name;
