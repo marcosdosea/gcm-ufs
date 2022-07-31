@@ -23,6 +23,8 @@ public class GerenciadorCliente {
         setCpf(cpf);
         setLogin(login);
         setSenha(senha);
+
+        System.out.println("Cliente inserido com sucesso!");
     }
     
     /**
@@ -47,8 +49,7 @@ public class GerenciadorCliente {
         }
         else {
             mensagem += "Não foi encontrado nenhum cliente a partir das informações inseridas!";
-            System.out.println(mensagem);
-            return null;
+            return mensagem;
         }
     }
 
@@ -97,6 +98,8 @@ public class GerenciadorCliente {
         } else {
             setSenha(senha);
         }
+
+        System.out.println("Cliente alterado com sucesso");
     }
 
     public void setNome(String nome) {
