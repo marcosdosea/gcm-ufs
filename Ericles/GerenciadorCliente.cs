@@ -13,15 +13,16 @@ public class GerenciadorCliente
         this.Nome = nome;
         this.Salario = salario;
     }
-    public void inserir(Cliente cliente)
+    
+    public void remover(Cliente cliente)
     {
-        Console.WriteLine("Inserindo cliente");
-        Clientes.add(cliente);
+        Console.WriteLine("Removendo cliente");
+        Clientes.remove(cliente);
     }
 
-    public Cliente consultar(IQueryable<Cliente> queryClientes)
+    public void alterar(Cliente cliente)
     {
-        Console.WriteLine("Consultando cliente");
-        return queryClientes.FirstOrDefault();
+        Console.WriteLine("Atualizando cliente");
+        Clientes.update(cliente);
     }
 }
