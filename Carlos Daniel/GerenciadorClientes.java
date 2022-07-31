@@ -1,18 +1,20 @@
 package PDDS;
 
 public class GerenciadorCliente{
-	private String nomeC;
-	private int idadeC;
+	private String nome;
+	private int idade;
 
 	public void inserirCliente(String nome, int idade){
-		this.nomeC = nome;
-		this.idadeC = idade;
+		this.nome = nome;
+		this.idade = idade;
 	}
 
 	public String consultarCliente(String nome){
 		if(nome.equals(this.nomeC))
 			return nomeC;
-		else
+		else{
+			System.out.println("Não há informações desse cliente no sistema.")
 			return new String("-1");
+		}
 	}
 }
