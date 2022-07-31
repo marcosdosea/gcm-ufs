@@ -7,6 +7,7 @@ public class GerenciadorVenda
     public double total { get; set; }
     public IList<Venda> Venda { get; set; }
     public Cliente cliente { get; set; }
+    private GerenciadorCliente _gerenciadorCliente { get; set; }
 
 
     public GerenciadorVenda(int id, DateTime dateTime, double total, Cliente cliente)
@@ -23,6 +24,8 @@ public class GerenciadorVenda
         Console.WriteLine("Inserindo venda");
         Venda.add(venda);
         context.Vendas.add(venda);
+        context.SaveChanges();
+        _gerenciadorCliente.inserir(this.cliente);
     }
 
 }
