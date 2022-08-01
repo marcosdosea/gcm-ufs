@@ -17,19 +17,4 @@ public class GerenciadorCliente {
             System.out.println("Usuario nao esta cadastrado");
     }
     
-    public void alterar(String nome, String endereco){
-	this.nome = nome;
-	this.endereco = endereco;
-    }
-    
-    public void remover(int id){
-        if(this.id == id){
-            this.id = -1;
-            this.nome = null;
-            this.endereco = null;
-        }else{
-            System.out.println("Id não existe");
-        }
-    }
-    
 }
