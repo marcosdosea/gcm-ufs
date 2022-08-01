@@ -11,10 +11,4 @@ public class GerenciadorCliente{
     public void consultar(){
         System.out.println("Nome do Cliente.");
     }
-    public void remover(){
-        System.out.println("Cliente removido com sucesso.");
-    }
-    public void alterar(){
-        System.out.println("Alterado com sucesso.");
-    }
 }
