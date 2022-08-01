@@ -11,5 +11,4 @@ public class GerenciadorCliente{
     public void consultar(){
         System.out.println("Nome do Cliente.");
     }
-    
 }
