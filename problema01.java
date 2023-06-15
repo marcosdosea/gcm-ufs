@@ -1,3 +1,0 @@
-public problema01(){
-
-}
