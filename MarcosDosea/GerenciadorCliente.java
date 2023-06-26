@@ -4,4 +4,6 @@ public class GerenciadorCliente {
 	}
 	public void Atualizar() {
 	}
+	public void Excluir() {
+	}
 }
