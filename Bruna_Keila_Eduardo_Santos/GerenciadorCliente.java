@@ -1,3 +1,6 @@
 public inserir(){
 
 }
+
+public excluir(){
+}
