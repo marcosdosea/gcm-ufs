@@ -1,2 +1,4 @@
 public excluir(){
 }
+public inserir(){
+}
