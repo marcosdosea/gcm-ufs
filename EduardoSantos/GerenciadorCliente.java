@@ -1,7 +1,7 @@
 public class GerenciadorCliente {
     
     public Boolean inserirCliente(Cliente cliente) {
-        if(inserido == true){
+        if(cliente.inserido == true){
             return true;
         }
 
@@ -14,5 +14,21 @@ public class GerenciadorCliente {
         }
 
         return null;
+    }
+
+    public Boolean removerCliente(String nomeCLiente) {
+         if(nomeCliente == cliente.nome){
+            return true;
+        }
+
+        return false;
+    }
+
+    public Boolean alterarCliente(String nomeCLiente) {
+        if(nomeCliente == cliente.nome){
+            return true;
+        }
+
+        return false;
     }
 }
