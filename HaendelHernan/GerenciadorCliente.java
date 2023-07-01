@@ -3,6 +3,8 @@ public class GerenciadorCliente{
         adicionarCliente();
         System.out.println("Cliente adicionado.");
         consultarCliente();
+        removerCliente();
+        alterarCliente();
     }
 
     public static void adicionarCliente(){
@@ -10,5 +12,11 @@ public class GerenciadorCliente{
     }
     public static void consultarCliente(){
         System.out.println("Dados do cliente:");
+    }
+    public static void removerCliente(){
+        System.out.println("Cliente removido.");
+    }
+    public static void alterarCliente(){
+        System.out.println("Cliente alterado.");
     }
 }
