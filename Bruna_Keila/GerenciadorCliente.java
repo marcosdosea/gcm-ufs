@@ -7,5 +7,14 @@ public class GerenciadorCliente {
     public Cliente consultarCliente() {
       
         }
+
+        public Cliente RemoverCliente() {
+      
+        }
+
+     public Cliente AlterarCliente() {
+      
+        }
+    
     }
     
