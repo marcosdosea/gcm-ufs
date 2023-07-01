@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 
-public class gerenciadorCliente {
+public class GerenciadorCliente {
     private ArrayList<Cliente> clientes;
     private int qtdClientes;
+    private Venda venda;
 
-    public gerenciadorCliente() {
+    public GerenciadorCliente() {
         this.clientes = new ArrayList<Cliente>();
         this.qtdClientes = 0;
     }
