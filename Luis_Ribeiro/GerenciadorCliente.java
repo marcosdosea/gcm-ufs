@@ -7,4 +7,12 @@ public class GerenciadorCliente{
 
 
     }
+    public void remover(){
+
+
+    }
+    public void alterar(){
+
+
+    }
 }
