@@ -1,0 +1,3 @@
+class GerenciadorVendas {
+  public inserir() {}
+}
