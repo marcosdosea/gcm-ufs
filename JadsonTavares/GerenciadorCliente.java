@@ -8,12 +8,13 @@ public class GerenciadorCliente {
         return null;
     }
 
+    // metodo remover cliente
      public void removerCliente(){
-        
+        return null;
     }
-
+     // metodo alterar cliente
     public void alterarCliente(){
-        
+        return null;
     }
 
 }
