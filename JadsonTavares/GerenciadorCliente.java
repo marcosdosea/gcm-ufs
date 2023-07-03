@@ -1,11 +1,19 @@
 public class GerenciadorCliente {
     // metodo inserir cliente
-    public inserir(){
+    public void inserir(){
         return null;
     }
     // metodo consultar cliente
-    public consultar(){
+    public void consultar(){
         return null;
+    }
+
+     public void removerCliente(){
+        
+    }
+
+    public void alterarCliente(){
+        
     }
 
 }
