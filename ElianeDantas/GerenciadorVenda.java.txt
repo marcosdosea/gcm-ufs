@@ -1,0 +1,6 @@
+public class GerenciadorVenda{
+    public void inserirCliente(){
+            GerenciadorCliente g = new GerenciadorCliente();
+            g.inserir();
+        }
+}
