@@ -2,4 +2,9 @@ public class GerenciadorCliente{
     public insert(){}
 
     public consult (){}
+
+    public remove (){}
+
+    public change (){}
+    
 }
