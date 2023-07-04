@@ -7,3 +7,5 @@ public class GerenciadorCliente {
     public Cliente consultarCliente() {
       
         }
+
+}
