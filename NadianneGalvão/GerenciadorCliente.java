@@ -8,6 +8,8 @@ public class GerenciadorCliente {
         System.out.println("Endereço: " + endereco);
         System.out.println("sexo: " + sexo);
 
+       /*como é, amigo?*/
+
     }
 
    
