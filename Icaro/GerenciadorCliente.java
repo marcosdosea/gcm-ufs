@@ -9,6 +9,9 @@ public class GerenciadorCliente {
         }
 
         public Cliente RemoverCliente() {
+            /* 
+            * COMENTEI SO PARA TER ALGO MESMO 
+            */ 
       
         }
 
