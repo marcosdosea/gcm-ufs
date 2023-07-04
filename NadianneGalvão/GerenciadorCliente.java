@@ -6,6 +6,7 @@ public class GerenciadorCliente {
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Endereço: " + endereco);
+        System.out.println("sexo: " + sexo);
 
     }
 
