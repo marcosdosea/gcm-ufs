@@ -22,7 +22,7 @@ public class GerenciadorCliente {
             System.out.println("Idade: " + cliente.getIdade());
             System.out.println("Endereço: " + cliente.getEndereco());
             System.out.println("Sexo: " + cliente.getSexo());
-            System.out.println();
+            System.out.println("Oi linda: " + cliente.getSexo());
         }
     }
 
