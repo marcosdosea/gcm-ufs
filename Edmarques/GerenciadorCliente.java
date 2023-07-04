@@ -1,0 +1,6 @@
+public inserir{
+
+}
+public consultar{
+
+}
