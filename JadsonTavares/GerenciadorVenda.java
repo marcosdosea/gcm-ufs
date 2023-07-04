@@ -1,10 +1,10 @@
 class GerenciadorVenda {
     private GerenciadorCliente gerenciadorCliente;
-    
+     // metodo gerenciar venda
     public GerenciadorVenda() {
         gerenciadorCliente = new GerenciadorCliente();
     }
-    
+    // metodo realizar venda
     public void realizarVenda(int idCliente, String nomeProduto) {
         Cliente cliente = gerenciadorCliente.consultar(idCliente);
         
