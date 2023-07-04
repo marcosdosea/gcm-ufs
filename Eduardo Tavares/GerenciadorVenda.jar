@@ -1,0 +1,10 @@
+import GerenciadorCliente;
+
+public class GerenciadorVenda {
+  public void novaVenda() {
+    GerenciadorCliente gerenciadorCliente;
+    gerenciadorCliente = new GerenciadorCliente();
+    gerenciadorCliente.inserir();
+    gerenciadorCliente.consultar();
+  }
+}
