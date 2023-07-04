@@ -1,0 +1,6 @@
+import GerenciadorCliente
+
+public class GerenciadorVenda{
+    public insert () {}
+    
+}
