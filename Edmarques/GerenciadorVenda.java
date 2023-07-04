@@ -1,3 +1,3 @@
 public class GerenciadorVenda{
-    inserir()
+    inserir();
 }
