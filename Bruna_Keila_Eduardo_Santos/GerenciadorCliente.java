@@ -1,6 +1,0 @@
-public inserir(){
-
-}
-
-public excluir(){
-}
