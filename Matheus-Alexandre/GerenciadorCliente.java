@@ -1,8 +1,10 @@
 Public Class {
     Public Inserir(Cliente cliente){
-        //TODO: inserir cliente
+        //TODO: coçandoabarriguinha
+        //temquefuncionar
     }
     Public Atualizar(Cliente cliente){
-        //TODO: atualizar cliente
+        //TODO: comapenas1click
+        //dasdasdas
     }
 }
