@@ -4,4 +4,9 @@ public class GerenciadorCliente
     {
         //TODO: Inserir cliente na base de dados
     }
+
+    public void AtualizarCliente(Cliente cliente)
+    {
+
+    }
 }
