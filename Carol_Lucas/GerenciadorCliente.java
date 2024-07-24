@@ -1,8 +1,8 @@
 public class GerenciadorCliente{
     public void inserir(){
-        //TODO: 
+        //TODO: Carol criou a inserir
     }
     public void atualizar(){
-        //TODO:
+        //TODO: Carol criou a atualizar
     }
 }
