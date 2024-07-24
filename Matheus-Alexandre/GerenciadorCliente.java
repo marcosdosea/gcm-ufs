@@ -1,8 +1,10 @@
 Public Class {
     Public Inserir(Cliente cliente){
-        //TODO: inserido 
+        //tem 
+        //funcionaaaaaa
     }
     Public Atualizar(Cliente cliente){
-        //TODO: atualizado 
+        //vaaai
+        //soir
     }
 }
