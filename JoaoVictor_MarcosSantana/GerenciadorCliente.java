@@ -5,7 +5,7 @@ public class GerenciadorCliente
         //TODO:
     }
 
-    public void alterar(Cliente cliente)
+    public void Atualizar(Cliente cliente)
     {
         //TODO:
     }
