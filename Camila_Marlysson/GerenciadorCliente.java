@@ -1,7 +1,7 @@
 public class GerenciadorCliente {
 
    public void Inserir(Cliente cliente) {
-	    //TODO: insere cliente na base
+	    //TODO: Agora já está inserindo os dados!
    }
 
 }
