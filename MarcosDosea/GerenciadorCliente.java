@@ -1,11 +1,11 @@
 public class GerenciadorCliente {
 
    public void Inserir(Cliente cliente) {
-	    //TODO: insere cliente na base
+	    //TODO: insere cliente versão dosea
    }
    
    public void Atualizar(Cliente cliente) {
-		//TODO: atualizar cliente na base de dados
+		//TODO: atualizar cliente versão dosea
    }
 
 }
