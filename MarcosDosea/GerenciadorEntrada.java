@@ -7,4 +7,8 @@ public class GerenciadorEntrada {
     public void Alterar() {
         //TODO: ALTERAR DADOS DA ENTRADA
     }
+
+    public void Remover() {
+        //TODO: REMOVER DADOS DA ENTRADA
+    }
 }
