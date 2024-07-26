@@ -4,4 +4,8 @@ public class GerenciadorCliente {
         
     }
     
+    public void atualizar(Cliente cliente){
+        // Atualiza dados do cliente
+    }
+    
 }
