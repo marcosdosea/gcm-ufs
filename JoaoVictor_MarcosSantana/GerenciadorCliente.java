@@ -9,6 +9,12 @@ public class GerenciadorCliente
     {
         //TODO:teste
     }
+	
+	public void RemoverCliente(Cliente cliente)
+	{
+		//TODO: função para remover o cliente
+	}
+	
     public void dadosBancarios(Cliente cliente){
         //TODO: insira o número do cartão, data e cvv
     }
