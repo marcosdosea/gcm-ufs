@@ -25,5 +25,11 @@ function drawCheckerboard() {
 }
 
 
+function drawCheckers(){
+
+    const circleSize = canvas.width/16;
+    //...
+}
+
 // Call the drawCheckerboard function to draw the initial checkerboard
 drawCheckerboard();
