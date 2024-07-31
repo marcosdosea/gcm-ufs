@@ -1,3 +1,7 @@
-  Não sei o quê
-Não sei o quê lá
-Não sei o que lá/2.
+public class jogodavelha{
+
+    public void inserir(Cliente player){
+        //TODO: INSERIR PLAYER feito por vini
+    }
+    
+}
