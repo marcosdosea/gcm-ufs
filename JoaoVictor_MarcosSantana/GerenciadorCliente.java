@@ -9,5 +9,7 @@ public class GerenciadorCliente
     {
         //TODO:teste
     }
-
+    public void dadosBancarios(Cliente cliente){
+        //TODO: insira o número do cartão, data e cvv
+    }
 }
