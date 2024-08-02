@@ -9,7 +9,15 @@ public class GerenciadorCliente{
         // TODO
 
     }
+    
+    void remover(){
+        //TODO
 
+    }
 
+    void alterar(){
+        //TODO
+
+    }
 
 }
