@@ -5,11 +5,4 @@ public class GerenciadorCliente {
     public void consultar(){
         //TODO
     }
-    public void remover(){
-        //TODO
-    }
-    public void alterar(){
-        //TODO
-    }
-    
 }
