@@ -14,6 +14,5 @@ public class GerenciadorCliente {
     private void alterar(Cliente cliente) {
         //TODO:
     }
-
 }
 
