@@ -2,9 +2,17 @@ nomespace GerenciadorCliente
 {
 	public class GerenciadorCliente
 	{
+		public void RemoverCliente(Cliente cliente)
+		{
+			// Remove o cliente
+		}
+
+		public void AtualizarCliente(Cliente cliente)
+		{
+			// Atualiza o cliente
 		public void InserirCliente(Cliente cliente)
 		{
-			// Realiza a inserção do cliente
+			// Realiza a inserÃ§Ã£o do cliente
 		}
 
 		public Cliente ConsultarCliente(int id)
