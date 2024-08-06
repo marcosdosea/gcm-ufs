@@ -3,4 +3,8 @@ public class jogodavelha{
     public void inserir(jogodavelha player){
         //TODO: INSERIR PLAYER
     }
-}1234
+    public void inserir2(jogodavelha player){
+        //TODO: INSERIR PLAYER 2
+    }
+}
+TODO:
