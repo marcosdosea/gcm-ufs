@@ -1,0 +1,21 @@
+public class GerenciadorCliente
+{
+    private List<Cliente> clientes;
+
+    public GerenciadorCliente()
+    {
+        clientes = new List<Cliente>();
+    }
+
+    public void InserirCliente(int id, string nome, string email)
+    {
+        Cliente novoCliente = new Cliente(id, nome, email);
+        clientes.Add(novoCliente);
+        Console.WriteLine("Cliente inserido com sucesso!");
+    }
+
+    public Cliente ConsultarCliente(int id)
+    {
+        return clientes.FirstOrDefault(cliente => cliente.Id == id);
+    }
+}
