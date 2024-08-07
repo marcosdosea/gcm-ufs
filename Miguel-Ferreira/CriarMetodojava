@@ -1,5 +1,4 @@
 public class CriarMetodo {
-
     // inserir e consultar
     public void inserir() {
         // TODO: IMPLEMENTAÇÃO INSERIR
@@ -7,9 +6,9 @@ public class CriarMetodo {
 
     public void consultar() {
         // TODO: IMPLEMENTAÇÃO CONSULTAR
-    }
-
-    public void remover() {
+        }
+        
+            public void remover() {
         // TODO: IMPLEMENTAÇÃO REMOVER
     }
 
