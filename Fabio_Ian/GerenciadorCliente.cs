@@ -19,5 +19,14 @@ public class GerenciadorCliente{
 
     public Cliente RemoverCliente(Cliente cliente) {
         // TODO: Remover Cliente
+		
     } 
+
+	public finalizar venda(){
+		// TODO: Finalizar Venda
+	}
+
+	public Cancelar venda(){
+		// TODO: Cancelar Venda
+	}
 }
