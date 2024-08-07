@@ -12,6 +12,6 @@ public class GerenciadorCliente{
 		
 		return null;
 	}
-  
+
 
 }
