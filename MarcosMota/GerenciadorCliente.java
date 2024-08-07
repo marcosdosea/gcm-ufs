@@ -12,7 +12,7 @@ public class GerenciadorCliente{
 		//Código de consultar o cliente e retornar os dados
 		return null;
 	}
-	
+  
 	public Cliente alterar(Cliente cliente){
 		//Código para alterar o cliente
 		return cliente;
@@ -22,4 +22,5 @@ public class GerenciadorCliente{
 		//Código para remover o cliente
 		return false;
 	}
+
 }
