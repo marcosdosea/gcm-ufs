@@ -1,0 +1,11 @@
+public class CriarMetodo {
+
+    // inserir e consultar
+    public void inserir(CriarMetodo cliente) {
+        // TODO: IMPLEMENTAÇÃO INSERIR
+    }
+
+    public void consultar(CriarMetodo cliente) {
+        // TODO: IMPLEMENTAÇÃO CONSULTAR
+    }
+}
