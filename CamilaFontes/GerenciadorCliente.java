@@ -8,4 +8,12 @@ public class GerenciadorCliente {
         // TODO: Consultar Cliente
     }
 
+    public void AlterarCliente(Cliente cliente) {
+        // TODO: Alterar Cliente
+    }
+
+    public void RemoverCliente(Cliente cliente) {
+        // TODO: Remover Cliente
+    }
+
 }
