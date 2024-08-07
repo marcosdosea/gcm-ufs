@@ -1,5 +1,5 @@
 public class GerenciadorCliente{
-     void inserir(){
+    void inserir(){
         //TODO:"inserir"
     }
     void consultar(){
