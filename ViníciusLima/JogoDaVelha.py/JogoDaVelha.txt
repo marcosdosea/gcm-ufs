@@ -1,0 +1,7 @@
+public class jogodavelha{
+
+    public void inserir(Cliente player){
+        //TODO: INSERIR PLAYER feito por vini
+    }
+    
+}
