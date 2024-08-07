@@ -4,7 +4,7 @@ public class inserir_e_consultar {
             //TODO:"inserir"
         }
         void consultar(){
-            //TODO:"consultar"1
+            //TODO:"consultar"
         }
     }
 }
