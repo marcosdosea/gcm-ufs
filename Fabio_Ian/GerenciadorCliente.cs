@@ -19,5 +19,6 @@ public class GerenciadorCliente{
 
     public Cliente RemoverCliente(Cliente cliente) {
         // TODO: Remover Cliente
+		
     } 
 }
