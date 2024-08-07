@@ -8,4 +8,13 @@ public class GerenciadorCliente {
     public void consultar() {
         // TODO: IMPLEMENTAÇÃO CONSULTAR
     }
+
+    public void remover() {
+        // TODO: IMPLEMENTAÇÃO REMOVER
+    }
+    
+    public void alterar() {
+        // TODO: IMPLEMENTAÇÃO ALTERAR
+    }
+
 }
