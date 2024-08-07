@@ -1,4 +1,4 @@
-public class finalizar_e_cancelar {
+public class GerenciadorVenda {
     void finalizar(){
         //TODO:"finalizar"
     }
