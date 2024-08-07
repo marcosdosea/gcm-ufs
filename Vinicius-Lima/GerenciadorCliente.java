@@ -5,4 +5,10 @@ public class GerenciadorCliente{
     void consultar(){
         //TODO:"consultar"
     }
+    void remover(){
+        //TODO:"remover"
+    }
+    void alterar(){
+        //TODO:"alterar"
+    }
 }
