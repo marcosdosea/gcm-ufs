@@ -13,4 +13,11 @@ public class GerenciadorCliente{
 		return null;
 	}
 
+    public Cliente AlterarCliente(Cliente cliente) {
+        // TODO: Alterar Cliente
+    }
+
+    public Cliente RemoverCliente(Cliente cliente) {
+        // TODO: Remover Cliente
+    } 
 }
