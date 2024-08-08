@@ -8,7 +8,7 @@ class Donwloader:
             print("Não foi possível baixar as músicas do linkin park :[")
             print("Mas gostaria de ouvir a palavra do Sr. Linux 🙏?")
             return
-
+            # método implementado com sucesso
     def __find_music(self, music):
         return None
 
