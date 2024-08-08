@@ -11,5 +11,15 @@ namespace GerenciardorCliente
         {
             // Código para consultar Cliente
         }
+                
+        public void remover  ()
+        {
+            // Código para remover  Cliente
+        }
+
+        public void alterar()
+        {
+            // Código para alterar Cliente
+        }
     }
 }
