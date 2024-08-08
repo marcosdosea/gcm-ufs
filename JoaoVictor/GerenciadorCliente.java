@@ -6,5 +6,13 @@ public class GerenciadorCliente {
     Cliente Consultar(String nome_cliente) {
         //TODO:
     }
+
+    void Remover(Cliente cliente) {
+        //TODO:
+    }
+
+    void Alterar(Cliente cliente) {
+        //TODO:
+    }
 }
 
