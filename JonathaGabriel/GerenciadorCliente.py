@@ -8,3 +8,9 @@ class GerenciadorCliente:
     def consultar(self):
         raise NotImplementedError
 
+    def alterar(self):
+        raise NotImplementedError
+
+    def remover(self):
+        raise NotImplementedError
+
