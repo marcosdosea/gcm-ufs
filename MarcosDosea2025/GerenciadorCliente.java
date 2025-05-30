@@ -7,7 +7,7 @@ public class GerenciadorCliente {
 	
 	public alterar(Cliente cliente) {
 		// regras de de negócio da edição
-		retrun true;
+		return true;
 	}
 
 }
