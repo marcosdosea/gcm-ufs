@@ -4,5 +4,10 @@ public class GerenciadorCliente {
 		// regras de negócio da implementação
 		return true;
 	}
+	
+	public alterar(Cliente cliente) {
+		// regras de de negócio da edição
+		retrun true;
+	}
 
 }
