@@ -6,8 +6,8 @@ public class GerenciadorCliente {
 	}
 	
 	public alterar(Cliente cliente) {
-		// regras de de negócio da edição
-		return false;
+		// regras de de negócio da edição implementada
+		return true;
 	}
 
 }
