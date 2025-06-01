@@ -9,6 +9,7 @@ public class GerenciadorCliente {
         this.clientes = new ArrayList<>();
     }
 
+<<<<<<< HEAD
     public void inserirCliente(Cliente cliente) {
         this.clientes.add(cliente);
     }
@@ -24,3 +25,10 @@ public class GerenciadorCliente {
         return false; 
     }
 }
+=======
+
+public void inserirCliente(Cliente cliente) {
+        this.clientes.add(cliente);
+ }  
+ }
+>>>>>>> 245a4004307648cf6c76c8a7134412fc552c271d
