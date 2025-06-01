@@ -12,5 +12,6 @@ public class GerenciadorCliente {
 
 public void inserirCliente(Cliente cliente) {
         this.clientes.add(cliente);
+System.out.println("Cliente adicionado com sucesso!");
  }  
  }
