@@ -8,4 +8,9 @@ public class GerenciadorCliente {
     public GerenciadorCliente() {
         this.clientes = new ArrayList<>();
     }
-}
+
+
+public void inserirCliente(Cliente cliente) {
+        this.clientes.add(cliente);
+ }  
+ }
