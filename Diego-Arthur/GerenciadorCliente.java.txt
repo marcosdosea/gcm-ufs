@@ -12,6 +12,7 @@ public class GerenciadorCliente {
 <<<<<<< HEAD
     public void inserirCliente(Cliente cliente) {
         this.clientes.add(cliente);
+System.out.println("Cliente adicionado com sucesso!");
     }
 
     public boolean atualizarCliente(int id, Cliente novoCliente) {
@@ -26,10 +27,5 @@ public class GerenciadorCliente {
     }
 }
 =======
-
-public void inserirCliente(Cliente cliente) {
-        this.clientes.add(cliente);
-System.out.println("Cliente adicionado com sucesso!");
- }  
  }
 >>>>>>> 245a4004307648cf6c76c8a7134412fc552c271d
