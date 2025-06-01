@@ -8,4 +8,19 @@ public class GerenciadorCliente {
     public GerenciadorCliente() {
         this.clientes = new ArrayList<>();
     }
+
+    public void inserirCliente(Cliente cliente) {
+        this.clientes.add(cliente);
+    }
+
+    public boolean atualizarCliente(int id, Cliente novoCliente) {
+        for (int i = 0; i < clientes.size(); i++) {
+            Cliente cliente = clientes.get(i);
+            if (cliente.getId() == id) {
+                clientes.set(i, novoCliente);
+                return true; 
+            }
+        }
+        return false; 
+    }
 }
