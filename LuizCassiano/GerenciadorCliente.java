@@ -6,4 +6,9 @@ public class GerenciadorCliente {
     public GerenciadorCliente() {
         clientes = new ArrayList<>();
     }
+
+    public void inserir(Cliente cliente) {
+    	clientes.add(cliente);
+    }
+
 }
