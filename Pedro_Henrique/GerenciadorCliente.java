@@ -4,11 +4,11 @@ public class GerenciadorCliente {
     }
 
     public void inserir(Cliente){
-        //Inserir cliente no sistema - Dev 1
+        //Inserir cliente na base de dados - Dev 2
     }
 
     public void atualizar(Cliente){
-        //Atualizar dados do cliente - Dev 1
+        //Atualizar dados do cliente no sistema - Dev 2
     }
 
 }
