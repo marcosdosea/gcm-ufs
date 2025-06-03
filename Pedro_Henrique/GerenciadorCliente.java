@@ -5,6 +5,8 @@ public class GerenciadorCliente {
 
     public void inserir(Cliente){
         //Inserir cliente no sistema - Dev 1
+        String nome = "Pedro";
+        return null;
     }
 
     public void atualizar(Cliente){
