@@ -11,6 +11,7 @@ public class GerenciadorCliente {
 
     public void atualizar(Cliente){
         //Atualizar dados do cliente no sistema - Dev 2
+	return new Cliente("João");
     }
 
 }
