@@ -11,4 +11,12 @@ public class GerenciadorCliente {
     	clientes.add(cliente);
     }
 
+    public void atualizar(int index, Cliente cliente) {
+        if (index >= 0 && index < clientes.size()) {
+            clientes.set(index, cliente);
+        } else {
+            System.out.println("Índice inválido.");
+        }
+    }
+
 }
