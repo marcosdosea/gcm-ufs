@@ -7,4 +7,12 @@ public class GerenciadorCliente{
     public static Cliente consultar(int idCliente){
 
     }
+
+    public static boolean remover(int idCliente){
+
+    }
+
+    public static Cliente alterar(int idCliente){
+
+    }
 }
