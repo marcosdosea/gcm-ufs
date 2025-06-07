@@ -7,4 +7,12 @@ public class GerenciadorCliente {
 
     }
 
+    public static void remover(int idCliente){
+
+    }
+
+    public static Cliente alterar(int idCliente){
+
+    }
+
 }
