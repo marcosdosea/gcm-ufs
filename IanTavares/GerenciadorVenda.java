@@ -7,7 +7,7 @@ class Venda {
 
     public Venda(int id) {
         this.id = id;
-        this.status = "pendente";
+        this.status = "PENDENTE";
     }
 
     public int getId() {
