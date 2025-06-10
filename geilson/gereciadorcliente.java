@@ -39,3 +39,31 @@ public class GerenciadorCliente {
                 .findFirst()
                 .orElse(null);
     }
+
+
+ /*Adicionar ao GerenciadorCliente.java:*/
+java/**
+ * Remove cliente por ID
+ * @param id ID do cliente a ser removido
+ * @return true se removido com sucesso
+ */
+public boolean remover(int id) {
+    return clientes.removeIf(c -> c.getId() == id);
+}
+
+/**
+ * Altera dados de um cliente existente
+ * @param cliente Cliente com dados atualizados
+ * @return true se alterado com sucesso
+ */
+public boolean alterar(Cliente cliente) {
+    if (cliente == null) return false;
+    
+    for (int i = 0; i < clientes.size(); i++) {
+        if (clientes.get(i).getId() == cliente.getId()) {
+            clientes.set(i, cliente);
+            return true;
+        }
+    }
+    return false;
+}
