@@ -10,4 +10,14 @@ public class GerenciadorCliente {
     // regras de negócio
     return true;
   }
+
+  public boolean remover(Cliente cliente) {
+    // regras de negócio
+    return true;
+  }
+
+  public boolean alterar(Cliente cliente) {
+    // regras de negócio
+    return true;
+  }
 }
