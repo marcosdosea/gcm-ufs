@@ -11,4 +11,14 @@ public class GerenciadorCliente {
         return null;
     }
 
+    public boolean remover(int id) {
+        // Remover um cliente
+        return true;
+    }
+
+    public Cliente alterar(int id) {
+        // Alterar dados de um cliente
+        return null;
+    }
+
 }
