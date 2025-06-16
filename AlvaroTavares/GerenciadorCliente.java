@@ -5,4 +5,10 @@ public class GerenciadorCliente {
     public Cliente consultar(int id){
         return null;
     }
+    public boolean remover(int id){
+        return true;
+    }
+    public Cliente alterar(Cliente cliente){
+        return null;
+    }
 }
