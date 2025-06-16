@@ -3,7 +3,6 @@ public class GerenciadorCliente {
     public boolean inserir(){
         return false;
     }
-
     public Cliente consultar(){
         return null;
     }
@@ -14,3 +13,4 @@ public class GerenciadorCliente {
         return true;
     }
 }
+
