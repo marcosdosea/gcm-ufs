@@ -29,4 +29,46 @@ public class GerenciadorCliente {
     public Cliente consultar(int idCliente) {
         return clientes.get(idCliente);
     }
+    
+// --- NOVOS MÉTODOS DA ISSUE 2 ---
+
+    /**
+     * Altera os dados de um cliente existente.
+     * Apenas os parâmetros não nulos serão alterados.
+     * @param idCliente O ID do cliente a ser alterado.
+     * @param novoNome O novo nome (ou null para não alterar).
+     * @param novoEmail O novo email (ou null para não alterar).
+     * @return true se a alteração foi bem-sucedida, false caso contrário.
+     */
+    public boolean alterar(int idCliente, String novoNome, String novoEmail) {
+        Cliente cliente = consultar(idCliente);
+        if (cliente != null) {
+            if (novoNome != null) {
+                cliente.setNome(novoNome);
+            }
+            if (novoEmail != null) {
+                cliente.setEmail(novoEmail);
+            }
+            System.out.println("INFO: Cliente ID " + idCliente + " alterado com sucesso.");
+            return true;
+        }
+        System.out.println("ERRO: Cliente com ID " + idCliente + " não encontrado para alteração.");
+        return false;
+    }
+
+    /**
+     * Remove um cliente do sistema pelo seu ID.
+     * @param idCliente O ID do cliente a ser removido.
+     * @return true se a remoção foi bem-sucedida, false caso contrário.
+     */
+    public boolean remover(int idCliente) {
+        if (clientes.containsKey(idCliente)) {
+            String nomeCliente = clientes.get(idCliente).getNome();
+            clientes.remove(idCliente);
+            System.out.println("INFO: Cliente '" + nomeCliente + "' (ID: " + idCliente + ") removido com sucesso.");
+            return true;
+        }
+        System.out.println("ERRO: Cliente com ID " + idCliente + " não encontrado para remoção.");
+        return false;
+    }
 }
