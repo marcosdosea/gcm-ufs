@@ -58,7 +58,7 @@ public class Main {
     public static void main(String[] args) {
         GerenciadorCliente gerenciador = new GerenciadorCliente();
 
-        // Inserindo clientes
+       
         gerenciador.inserir(new Cliente("001", "Ana"));
         gerenciador.inserir(new Cliente("002", "Carlos"));
 
