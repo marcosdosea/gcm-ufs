@@ -1,4 +1,0 @@
-
-Public Class Subtracao int subtrair(int numero1, int numero2){
-	return numero 1 - numero2;
-}
