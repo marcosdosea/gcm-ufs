@@ -1,4 +1,9 @@
+
+public Class GerenciadorVendas {
+
+
 public class GerenciadorVenda {
+
     public void finalizar(Venda venda) {
         System.out.println("Venda " + venda.getId() + " finalizada com sucesso.");
     }
@@ -7,4 +12,8 @@ public class GerenciadorVenda {
         System.out.println("Venda " + venda.getId() + " cancelada com sucesso.");
     }
     
+
 }
+
+}
+
