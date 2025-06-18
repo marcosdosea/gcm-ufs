@@ -20,5 +20,4 @@ public class GerenciadorCliente{
         System.out.println("Cliente excluído");
     }
 
-
 }
