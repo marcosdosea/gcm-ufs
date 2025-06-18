@@ -7,4 +7,11 @@ public class GerenciadorCliente{
     public void consultar(){
        //to do
     }
+  
+    public void alterar(){
+       //to do 
+    }
+    public void remover(){
+        //to do
+    }
 }
