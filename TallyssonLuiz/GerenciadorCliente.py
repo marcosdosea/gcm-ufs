@@ -19,3 +19,6 @@ class GerenciadorCliente:
         print("Lista de clientes cadastrados:")
         for i, cliente in enumerate(self.clientes, start=1):
             print(f"{i}. Nome: {cliente['nome']}, Telefone: {cliente['telefone']}, Email: {cliente['email']}")
+
+
+            
