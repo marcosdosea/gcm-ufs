@@ -1,8 +1,9 @@
 public class GerenciadorCliente {
 
     public void inserir(Cliente cliente) {
-        cliente.Nome = cliente.Nome.ToUpper();
-        context.Add(cliente);
+	var _cliente = cliente
+        _cliente.Nome = _cliente.Nome.ToUpper();
+        context.Add(_cliente);
     }
 
     public void atualizar(Cliente cliente){
