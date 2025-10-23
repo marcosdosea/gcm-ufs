@@ -1,8 +1,7 @@
 public class GerenciadorCliente {
 
     public void inserir(Cliente cliente) {
-	var _cliente = cliente
-        _cliente.Nome = _cliente.Nome.ToLower();
+		var _cliente = cliente
         context.Add(_cliente);
     }
 
