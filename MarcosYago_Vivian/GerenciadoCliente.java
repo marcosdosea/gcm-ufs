@@ -1,5 +1,5 @@
 public class GerenciadorCliente {
-    public static void main(String[] args) {
-        System.out.println("Ta tudo certinho!");
-    }
+    public void inserir(Cliente cliente) {
+		cliente.Nome.ToUpper();
+		context.Add(cliente);	}
 }
