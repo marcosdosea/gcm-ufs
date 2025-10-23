@@ -4,4 +4,7 @@ public class GerenciadorCliente{
 			cliente.nome = nome;
 		}		
 	}
+	public void inserir(){
+		System.Out.Println("Cliente inserido!");
+	}
 }
