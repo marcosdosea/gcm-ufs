@@ -5,6 +5,6 @@ public class GerenciadorCliente{
 		}		
 	}
 	public void inserir(){
-		System.Out.Println("Cliente inserido!");
+		System.Out.Println("Cliente inserido com sucesso!");
 	}
 }
