@@ -1,5 +1,5 @@
 public class GerenciadorCliente {
-    public void inserir(cliente)
-        System.out.println("metodo inseri criado!");
-    }
+    public void inserir(Cliente cliente) {
+		cliente.Nome.ToUpper();
+		context.Add(cliente);	}
 }
