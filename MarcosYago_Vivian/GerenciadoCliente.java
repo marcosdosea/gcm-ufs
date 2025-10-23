@@ -1,5 +1,5 @@
 public class GerenciadorCliente {
     public void inserir(cliente)
-        System.out.println("mtodo criado!");
+        System.out.println("metodo criado!");
     }
 }
