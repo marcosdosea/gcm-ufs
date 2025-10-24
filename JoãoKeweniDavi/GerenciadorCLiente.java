@@ -3,4 +3,9 @@ public class GerenciadorCLiente {
 		System.Out.Println("Cliente inserido com sucesso!");
 	}
     
+	public void Atualizar(Cliente cliente, nome){
+		if(cliente.exists()){
+			cliente.nome = nome;
+		}		
+	}
 }
