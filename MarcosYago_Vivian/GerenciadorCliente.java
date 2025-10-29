@@ -9,4 +9,4 @@ public class GerenciadorCliente {
         context.merge(cliente);
         System.out.println("Cliente atualizado: " + cliente.Nome);
     }
-} 
+}
