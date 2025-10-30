@@ -8,6 +8,7 @@ public class GerenciadorCliente{
             context.add(cliente);
         }else {
             System.err.println("Erro: Algum campo está vazio");
+            return null;
         }
         
     }
