@@ -8,13 +8,9 @@ public class GerenciadorCliente{
             context.add(cliente);
         }else {
             System.err.println("Erro: Algum campo está vazio");
-<<<<<<< HEAD
             if (cpf == null) {
                 System.err.println("Erro: Impossivel inserir sem CPF");
             }
-=======
-            return null;
->>>>>>> 106993c2d4730f6c3b76e17814675563ea2af239
         }
         
     }
