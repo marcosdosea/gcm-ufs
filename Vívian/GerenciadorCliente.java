@@ -1,23 +1,17 @@
+import java.util.Scanner;
+
 public class GerenciadorCliente {
 
-    public void Cliente(Cliente cliente){
-        //TODO
-    }
-
     public void Inserir(Cliente cliente){
-        //TODO
+        Scanner sc = new Scanner(System.in);
+        system.out.println("Insira o nome do cliente:");
+        String nomeCliente = sc.nextLine();
+        System.out.println("\nCLIENTE: " + nomeCliente + " | STATUS: Inserido com sucesso.");
+        sc.close();
     } 
 
     public void consultar(Cliente cliente){
-        //TODO
-    }
-
-    public void Remover(Cliente cliente){
-     //TODO   
-    }
-
-    public void Alterar(Cliente cliente){
-        //TODO
+       System.out.println("Consultando dados do cliente " + cliente + "...");
     }
 
 }
