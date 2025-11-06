@@ -12,6 +12,14 @@ public class GerenciadorCliente {
         //TODO
     }
 
+    public void Remover(Cliente cliente){
+     //TODO   
+    }
+
+    public void Alterar(Cliente cliente){
+        //TODO
+    }
+
 }
 public void main(String[] args){
     System.out.println("Bem vindo ao Gerenciador");
