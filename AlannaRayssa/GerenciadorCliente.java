@@ -10,4 +10,12 @@ public class GerenciadorCliente {
     public String consultar(int idCliente) {
         return null;
     }
+
+    public boolean alterar(int idCliente, String novosDadosCliente) {
+        return false; 
+    }
+
+    public boolean remover(int idCliente) {
+        return false;
+    }
 }
