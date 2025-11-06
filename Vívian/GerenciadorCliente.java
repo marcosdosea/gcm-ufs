@@ -4,9 +4,11 @@ public class GerenciadorCliente {
 
     public void Inserir(Cliente cliente){
         Scanner sc = new Scanner(System.in);
+
         system.out.println("Insira o nome do cliente:");
         String nomeCliente = sc.nextLine();
         System.out.println("\nCLIENTE: " + nomeCliente + " | STATUS: Inserido com sucesso.");
+        
         sc.close();
     } 
 
