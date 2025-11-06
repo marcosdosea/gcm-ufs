@@ -17,3 +17,7 @@ public class GerenciadorCliente {
         System.out.println("Cliente alterado.");
     }
 }
+public class GerenciadorVenda {
+    System.out.println("Venda.");
+
+}
