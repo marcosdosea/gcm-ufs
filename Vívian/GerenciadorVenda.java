@@ -19,5 +19,5 @@ public class GerenciadorVenda {
 }
 
 public void main(String[] args){
-    system.out.println("Bem vindo ao Gerenciador");
+    system.out.println("Bem vindo ao Gerenciador!");
 }
