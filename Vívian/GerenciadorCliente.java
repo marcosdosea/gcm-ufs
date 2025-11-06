@@ -13,7 +13,6 @@ public class GerenciadorCliente {
     }
 
 }
-
 public void main(String[] args){
     System.out.println("Bem vindo ao Gerenciador");
 }
