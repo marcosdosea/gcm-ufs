@@ -6,7 +6,7 @@ class GerenciadorCliente {
         clientes.add(cliente);
         System.out.println("Cliente inserido com sucesso!");
     }
-
+  
     public Cliente consultar(int id) {
         for (Cliente c : clientes) {
             if (c.getId() == id) {
@@ -14,5 +14,13 @@ class GerenciadorCliente {
             }
         }
         return null; 
+    }
+      
+    public void removerCliente(int id) {
+
+    }
+
+    public void alterarCliente(int id, String Nome, String Email) {
+       
     }
 }
