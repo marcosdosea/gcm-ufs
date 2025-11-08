@@ -17,21 +17,5 @@ public class GerenciadorCliente {
         }
     }
 
-    public void remover(String cliente) {
-        if (clientes.remove(cliente)) {
-            System.out.println("Cliente removido: " + cliente);
-        } else {
-            System.out.println("Cliente não encontrado.");
-        }
-    }
-
-    public void alterar(String clienteAntigo, String clienteNovo) {
-        int index = clientes.indexOf(clienteAntigo);
-        if (index != -1) {
-            clientes.set(index, clienteNovo);
-            System.out.println("Cliente alterado para: " + clienteNovo);
-        } else {
-            System.out.println("Cliente não encontrado.");
-        }
-    }
+    
 }
