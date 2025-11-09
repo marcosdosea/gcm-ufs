@@ -16,6 +16,5 @@ public class GerenciadorCliente {
             System.out.println(cliente);
         }
     }
-
     
 }
