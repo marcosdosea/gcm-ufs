@@ -17,5 +17,23 @@ public class GerenciadorCliente {
         }
     }
 
+    public void remover(){
+        if (!clientes.isEmpty()) {
+            String clienteRemovido = clientes.remove(clientes.size() - 1);
+            System.out.println("Cliente removido: " + clienteRemovido);
+        } else {
+            System.out.println("Nenhum cliente para remover.");
+        }
+    }
+
+    public void alterar(){
+        if (!clientes.isEmpty()) {
+            String clienteAlterado = clientes.get(0);
+            clientes.set(0, clienteAlterado + " (alterado)");
+            System.out.println("Cliente alterado: " + clientes.get(0));
+        } else {
+            System.out.println("Nenhum cliente para alterar.");
+        }
+    }
     
 }
