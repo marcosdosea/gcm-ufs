@@ -7,12 +7,12 @@ public class GerenciadorCliente {
     public GerenciadorCliente() {
         clientes = new HashMap<>();
     }
-
+    //Metodo Inserir um novo cliente no gerenciador
     public void inserir(int id, String nome) {
         clientes.put(id, nome);
         System.out.println("Cliente inserido com sucesso: " + nome);
     }
-
+    //Metodo consultar um cliente no gerenciador
     public String consultar(int id) {
         if (clientes.containsKey(id)) {
             return "Cliente encontrado: " + clientes.get(id);
