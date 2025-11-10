@@ -10,7 +10,7 @@ public class GerenciadorCliente {
 
     public void inserir(int id, String nome) {
         clientes.put(id, nome);
-        System.out.println("Cliente inserido com sucesso: " + nome);
+        System.out.println("Cliente inserido: " + nome);
     }
 
     public String consultar(int id) {
@@ -18,6 +18,24 @@ public class GerenciadorCliente {
             return "Cliente encontrado: " + clientes.get(id);
         } else {
             return "Cliente não encontrado.";
+        }
+    }
+
+    public void remover(int id) {
+        if (clientes.containsKey(id)) {
+            clientes.remove(id);
+            System.out.println("Cliente removido com sucesso.");
+        } else {
+            System.out.println("Cliente não encontrado para remoção.");
+        }
+    }
+
+    public void alterar(int id, String novoNome) {
+        if (clientes.containsKey(id)) {
+            clientes.put(id, novoNome);
+            System.out.println("Cliente atualizado: " + novoNome);
+        } else {
+            System.out.println("Cliente não encontrado para alteração.");
         }
     }
 }
