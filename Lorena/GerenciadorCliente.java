@@ -47,5 +47,29 @@ public class GerenciadorCliente {
             System.out.println("Cliente não encontrado.");
         }
     }
-   
+    public List<Cliente> listarClientes() {
+        return new ArrayList<>(clientes);
+    }
+
+    public void removerCliente(Cliente cliente) {
+        clientes.remove(cliente);
+    } 
+    public void removerClientePorId(int id) {
+        Cliente cliente = buscarClientePorId(id);
+        if (cliente != null) {
+            clientes.remove(cliente);
+        }
+    }
+    public void removerClientePorNome(String nome) {
+        Cliente cliente = buscarClientePorNome(nome);
+        if (cliente != null) {
+            clientes.remove(cliente);
+        }
+    }
+    public void atualizarClienteNome(Cliente cliente, String novoNome) {
+        cliente.setNome(novoNome);
+    }
+    public void atualizarClienteEmail(Cliente cliente, String novoEmail) {
+        cliente.setEmail(novoEmail);
+    }
 }
