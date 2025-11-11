@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+class GerenciadorCliente {
+    ArrayList<String> clientes = new ArrayList<>();
+
+    void inserir(String nome) {
+        clientes.add(nome);
+        System.out.println("Cliente inserido: " + nome);
+    }
+
+    void consultar() {
+        System.out.println("Lista de clientes:");
+        for (String nome : clientes) {
+            System.out.println(nome);
+        }
+    }
+
+    public static void main(String[] args) {
+        GerenciadorCliente g = new GerenciadorCliente();
+        g.inserir("Lucas");
+        g.inserir("Maria");
+        g.consultar();
+    }
+}
