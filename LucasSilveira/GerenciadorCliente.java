@@ -17,3 +17,22 @@ public class GerenciadorCliente {
             }
         }
     }
+    
+    public void remover(String nome) {
+        if (clientes.remove(nome)) {
+            System.out.println("Cliente '" + nome + "' removido com sucesso!");
+        } else {
+            System.out.println("Cliente '" + nome + "' não encontrado.");
+        }
+    }
+
+    public void alterar(String nomeAntigo, String nomeNovo) {
+        int index = clientes.indexOf(nomeAntigo);
+        if (index != -1) {
+            clientes.set(index, nomeNovo);
+            System.out.println("Cliente '" + nomeAntigo + "' alterado para '" + nomeNovo + "'.");
+        } else {
+            System.out.println("Cliente '" + nomeAntigo + "' não encontrado.");
+        }
+    }
+}
