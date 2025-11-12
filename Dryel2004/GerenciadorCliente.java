@@ -16,4 +16,22 @@ public class GerenciadorCliente {
     public boolean consultar(String nome) {
         return clientes.contains(nome);
     }
+
+    public void remover(String nome) { 
+        if (clientes.remove(nome)) {
+            System.out.println("Cliente removido: " + nome);
+        } else {
+            System.out.println("Cliente não encontrado: " + nome);
+        }
+    }
+
+    public void alterar(String nomeAntigo, String nomeNovo) {
+        int indice = clientes.indexOf(nomeAntigo);
+        if (indice != -1) {
+            clientes.set(indice, nomeNovo);
+            System.out.println("Cliente alterado de " + nomeAntigo + " para " + nomeNovo);
+        } else {
+            System.out.println("Cliente não encontrado: " + nomeAntigo);
+        }
+    }
 }
