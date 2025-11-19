@@ -9,5 +9,11 @@ public class GerenciadorCliente {
     public void consultarCliente() {
             
     }
+    public void removerCliente() {
+            
+    }
+    public void alterarCliente() {
+            
+    }
 }
 
