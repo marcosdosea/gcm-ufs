@@ -2,11 +2,11 @@
 public class GerenciadorCliente {
     
 
-    public void inserir(String cliente) {
+    public void inserirCliente() {
       
     }
 
-    public void consultar() {
+    public void consultarCliente() {
             
     }
 }
