@@ -1,1 +1,0 @@
-melhoria da função buscar autor, testando coisas
