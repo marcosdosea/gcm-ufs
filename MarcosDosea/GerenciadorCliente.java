@@ -1,7 +1,7 @@
 public class GerenciadorCliente {
 
-	public void inserir(){
-	   //TODO: implementar inserção
+	public void inserir(Cliente cliente){
+	   context.Save(cliente);
 	}
 	
 	public void atualizar() {
