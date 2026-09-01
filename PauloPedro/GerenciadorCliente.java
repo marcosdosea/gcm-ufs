@@ -1,6 +1,8 @@
-public class GerenciadorCliente (){
-    private int id;
-    private String nome;
-    private String cpf;
-    private String telefone;
+public class GerenciadorCliente{
+    private List<Cliente> clientes = new ArrayList<>();
+
+    public void inserir(Cliente cliente){
+        clientes.add(cliente);
+        System.out.println("Cliente cadastrado!");
+    }
 }
