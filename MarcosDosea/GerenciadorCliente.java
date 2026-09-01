@@ -1,7 +1,8 @@
 public class GerenciadorCliente {
 
-	public void inserir(){
-	   //TODO: implementar inserção
+	public void inserir(Cliente cliente){
+	   Util.ValidarCpf(cliente.cpf);
+	   context.Save();
 	}
 	
 	public void atualizar() {
