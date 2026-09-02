@@ -6,7 +6,9 @@ public class GerenciadorCliente{
         System.out.println("Cliente cadastrado!");
     }
 
-    public void atualizar(Cliente cliente) {
-        // TODO: implementar atualização de cliente
+    public void atualizar(Cliente cliente, String nome, String CPF) {
+        cliente.nome = nome;
+        cliente.cpf = cpf;
+        System.out.println("Cliente atualizado!")
     }
 }
