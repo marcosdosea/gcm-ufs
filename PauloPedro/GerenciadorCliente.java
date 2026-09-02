@@ -5,4 +5,8 @@ public class GerenciadorCliente{
         clientes.add(cliente);
         System.out.println("Cliente cadastrado!");
     }
+
+    public void atualizar(Cliente cliente) {
+        // TODO: implementar atualização de cliente
+    }
 }
