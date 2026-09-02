@@ -7,6 +7,11 @@ public class GerenciadorCliente{
     }
 
     public void atualizar(Cliente cliente) {
-        // TODO: implementar atualização de cliente
+        for (Cliente c : clientes) {
+            if (c.getId() == cliente.getId()) {
+                c.atualizar(cliente);
+                break;       
+            }
+        }
     }
 }
