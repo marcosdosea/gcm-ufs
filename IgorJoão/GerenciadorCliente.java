@@ -1,1 +1,3 @@
-// gerenciador cliente
+public class GerenciadorCliente{
+    
+}
