@@ -7,4 +7,12 @@ public class GerenciadorCliente {
     public void atualizarCliente(){
         
     }
+
+    public void inserirCliente(){
+        
+    }
+
+    public void atualizarCliente(){
+        
+    }
 }
