@@ -2,9 +2,11 @@ public class GerenciadorCliente{
     private List<Cliente> clientes = new ArrayList<>();
 
     public void inserir(Cliente cliente){
-		cliente.validar();
+		cliente d = cliente.validar();
 		Cliente c = cliente.normalizar();
-        clientes.add(c);
+        clientes.add(d);
+		Cliente f = cliente.normalizar();
+        clientes.add(f);
         float j = 1.1 + 1.1;
         System.out.println("Cliente cadastrado!");
     }
