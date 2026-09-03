@@ -3,8 +3,8 @@ public class GerenciadorCliente{
 
     public void inserir(Cliente cliente){
 		cliente.validar();
-        clientes.add(cliente);
-        int i = 1 + 1;
+		Cliente c = cliente.normalizar();
+        clientes.add(c);
         float j = 1.1 + 1.1;
         System.out.println("Cliente cadastrado!");
     }
