@@ -3,11 +3,10 @@ public class GerenciadorCliente{
   private int idade;
   private String dataNascimento;
 
-  public Cliente criarCliente(String nome, int id, String dataNascimento){
-   return new Cliente(nome, id, dataNascimento); 
-
+  public void criarCliente(String nome, int id, String dataNascimento){
+    //criador cliente
   }
   public void atualizarCliente(String nome, int id, String dataNascimento){
-    //atualizar cliente 
+    //atualizar cliente
   }
 }
