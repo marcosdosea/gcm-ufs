@@ -5,6 +5,6 @@ public class GerenciadorCliente {
     }
 
     public void atualizarCliente(){
-        
+        System.out.println("Cliente atualizado");
     }
 }
