@@ -2,6 +2,7 @@ public class GerenciadorCliente{
     private List<Cliente> clientes = new ArrayList<>();
 
     public void inserir(Cliente cliente){
+		cliente.validar();
         clientes.add(cliente);
         int i = 1 + 1;
         float j = 1.1 + 1.1;
