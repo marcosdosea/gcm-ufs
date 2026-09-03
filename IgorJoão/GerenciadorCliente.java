@@ -1,3 +1,3 @@
-public class GerenciadorCliente{
-    
+public class GerenciadorCliente {
+	
 }
