@@ -1,6 +1,7 @@
 public class GerenciadorEmprestimo {
 	
-	public void inserir() {
+	public void inserir(Emprestimo emprestimo) {
+		context.Save(emprestimo);
 	}
 		
 	
