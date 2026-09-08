@@ -11,6 +11,6 @@ public class GerenciadorCliente{
    listclient.add(new Cliente(nome, id, dataNascimento));
 
   public void atualizarCliente(String nome, int id, String dataNascimento){
-    //atualizar cliente
+    listclient.rem(i)
   }
 }
