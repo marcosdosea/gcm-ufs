@@ -4,7 +4,7 @@ public class GerenciadorCliente {
     }
 
 
-public void atualizar(Cliente cliente) {
+    public void atualizar(Cliente cliente) {
     salvarCliente(cliente);
 }
 }
