@@ -1,7 +1,7 @@
 public class GerenciadorCliente {
     
     public void inserirCliente(){
-       int quant++;
+       int quantidadeClientes = 10;
     }
 
     public void atualizarCliente(){
