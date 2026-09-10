@@ -11,6 +11,9 @@ public class GerenciadorCliente{
    listclient.add(new Cliente(nome, id, dataNascimento));
 
   public void atualizarCliente(String nome, int id, String dataNascimento){
-    //atualizar cliente
+    listclient.atualizar(id);
+  }
+  public void removerCliente(String nome, int id, String dataNascimento){
+    listclient.remover(id);
   }
 }
