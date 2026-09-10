@@ -14,6 +14,6 @@ public class GerenciadorCliente{
     public void atualizar(Cliente cliente, String nome, String CPF) {
         cliente.nome = nome;
         cliente.cpf = cpf;
-        System.out.println("Cliente atualizado!")
+        System.out.println("Cliente atualizado e cadastrado!")
     }
 }
