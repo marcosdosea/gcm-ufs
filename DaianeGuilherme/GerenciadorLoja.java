@@ -6,4 +6,5 @@ public class GerenciadorLoja {
     public void atualizar(Loja loja) {
         salvarLoja(loja);
     }
+    //testee
 }
