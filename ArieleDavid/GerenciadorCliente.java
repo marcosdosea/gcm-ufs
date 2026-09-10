@@ -8,3 +8,5 @@ public class GerenciadorCliente {
         System.out.println("Cliente cadastrado com sucesso!");
     }
 }
+
+//teste
