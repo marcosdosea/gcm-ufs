@@ -1,7 +1,7 @@
-package IgorYasmim;
-
 public class GerenciadorCliente {
+
     public void inserir(Cliente cliente) {
-		context.Save(cliente);
-	}
+        // Lógica para inserir o cliente no banco de dados
+    }
+
 }
