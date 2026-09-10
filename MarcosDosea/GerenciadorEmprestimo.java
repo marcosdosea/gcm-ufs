@@ -4,5 +4,7 @@ public class GerenciadorEmprestimo {
 		context.Save(emprestimo);
 	}
 		
-	
+	public void alterar(Emprestimo emprestimo) {
+		context.Save(emprestimo);
+	}
 }
