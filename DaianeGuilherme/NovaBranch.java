@@ -3,6 +3,6 @@ public class Branch_Cliente {
         salvarCliente(cliente);
     }
     public void Remover(Cliente cliente){
-        removerCliente(cliente);
+        deleteCliente(cliente);
     }
 }
