@@ -17,6 +17,20 @@ public class GerenciarColaborador {
         return colaboradores.remove(nome);
     }
 
+    public boolean alterar(String nomeAtual, String novoNome) {
+        if (novoNome == null || novoNome.isBlank()) {
+            throw new IllegalArgumentException("O nome do colaborador é obrigatório.");
+        }
+
+        int indice = colaboradores.indexOf(nomeAtual);
+        if (indice == -1) {
+            return false;
+        }
+
+        colaboradores.set(indice, novoNome.trim());
+        return true;
+    }
+
     public List<String> listar() {
         return Collections.unmodifiableList(colaboradores);
     }
