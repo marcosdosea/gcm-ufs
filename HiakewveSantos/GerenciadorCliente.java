@@ -8,4 +8,12 @@ public class GerenciadorCliente {
     public void consultar(Object cliente){
         // TODO
     }
+
+    public void remover (int idCliente){
+        // TODO
+    }
+
+    public void alterar (Object Cliente){
+        // TODO
+    }
 }
