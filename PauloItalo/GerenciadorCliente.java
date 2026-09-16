@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class GerenciadorCliente {
@@ -12,7 +11,14 @@ public class GerenciadorCliente {
         clientes.add(cliente);
     }
 
-    public List<Cliente> consultar() {
-        return Collections.unmodifiableList(new ArrayList<>(clientes));
+    public Cliente consultar(Cliente cliente) {
+        if (cliente == null) {
+            throw new IllegalArgumentException("O cliente não pode ser nulo.");
+        }
+
+        return clientes.stream()
+                .filter(clienteCadastrado -> clienteCadastrado.equals(cliente))
+                .findFirst()
+                .orElse(null);
     }
 }
