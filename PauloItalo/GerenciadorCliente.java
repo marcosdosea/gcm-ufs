@@ -21,4 +21,18 @@ public class GerenciadorCliente {
                 .findFirst()
                 .orElse(null);
     }
+
+    public boolean remover(Cliente cliente) {
+        if (cliente == null) {
+            throw new IllegalArgumentException("O cliente não pode ser nulo.");
+        }
+
+        return clientes.remove(cliente);
+    }
+
+    public void alterar(Cliente cliente, String nome, String cpf, String telefone) {
+        cliente.setNome(nome);
+        cliente.setCpf(cpf);
+        cliente.setTelefone(telefone);
+    }
 }
