@@ -19,3 +19,22 @@ public class GerenciadorCliente {
         return null;
     }
 }
+
+public boolean remover(String id) {
+        Cliente cliente = consultar(id);
+        if (cliente != null) {
+            clientes.remove(cliente);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean alterar(Cliente clienteAtualizado) {
+        for (int i = 0; i < clientes.size(); i++) {
+            if (clientes.get(i).getId().equals(clienteAtualizado.getId())) {
+                clientes.set(i, clienteAtualizado);
+                return true;
+            }
+        }
+        return false;
+    }
