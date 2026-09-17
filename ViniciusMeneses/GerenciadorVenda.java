@@ -1,23 +1,32 @@
 package ViniciusMeneses;
 
-public class Venda {
-    private String id;
-    private String status; // "PENDENTE", "FINALIZADA", "CANCELADA"
+import java.util.ArrayList;
+import java.util.List;
 
-    public Venda(String id) {
-        this.id = id;
-        this.status = "PENDENTE";
+public class GerenciadorVenda {
+    private List<Venda> vendas = new ArrayList<>();
+
+    public void cadastrarVenda(Venda venda) {
+        vendas.add(venda);
     }
 
-    public String getId() {
-        return id;
+    public boolean finalizar(String idVenda) {
+        for (Venda v : vendas) {
+            if (v.getId().equals(idVenda)) {
+                v.setStatus("FINALIZADA");
+                return true;
+            }
+        }
+        return false;
     }
 
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
+    public boolean cancelar(String idVenda) {
+        for (Venda v : vendas) {
+            if (v.getId().equals(idVenda)) {
+                v.setStatus("CANCELADA");
+                return true;
+            }
+        }
+        return false;
     }
 }
