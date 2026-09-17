@@ -10,4 +10,12 @@ public class GerenciarCliente {
         return cliente;
     }
     
+    public int remover(int id){
+        // remove o cliente do banco de dados pelo id e retorna o id do cliente removido
+        return id;
+    }
+    public Cliente atualizar(Cliente cliente){
+        // atualiza o cliente no banco de dados e retorna o cliente atualizado
+        return cliente;
+    }
 }
