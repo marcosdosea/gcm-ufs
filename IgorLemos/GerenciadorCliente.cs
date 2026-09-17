@@ -57,3 +57,16 @@ public bool Alterar(int id, string novoNome, string novoEmail, string novoTelefo
     cliente.Telefone = novoTelefone;
     return true;
 }
+// ---------- Cancelar ----------
+
+public bool Cancelar(int id)
+{
+    var venda = Consultar(id);
+    if (venda == null)
+        return false;
+
+    if (venda.Status == StatusVenda.Cancelada)
+        throw new InvalidOperationException("Essa venda já está cancelada.");
+
+    venda.Status = StatusVenda.Cancelada;
+    return true;
