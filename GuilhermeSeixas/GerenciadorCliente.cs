@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace JoaoSilva
+namespace GuilhermeSeixas
 {
     public class Cliente
     {
@@ -32,6 +32,30 @@ namespace JoaoSilva
         public Cliente Consultar(int id)
         {
             return clientes.FirstOrDefault(c => c.Id == id);
+        }
+
+        public void Remover(int id)
+        {
+            Cliente cliente = clientes.FirstOrDefault(c => c.Id == id);
+
+            if (cliente == null)
+                throw new InvalidOperationException($"Cliente com Id {id} não encontrado.");
+
+            clientes.Remove(cliente);
+        }
+
+        public void Alterar(Cliente clienteAlterado)
+        {
+            if (clienteAlterado == null)
+                throw new ArgumentNullException(nameof(clienteAlterado));
+
+            Cliente cliente = clientes.FirstOrDefault(c => c.Id == clienteAlterado.Id);
+
+            if (cliente == null)
+                throw new InvalidOperationException($"Cliente com Id {clienteAlterado.Id} não encontrado.");
+
+            cliente.Nome = clienteAlterado.Nome;
+            cliente.Cpf = clienteAlterado.Cpf;
         }
     }
 }
