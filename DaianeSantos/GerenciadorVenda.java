@@ -10,7 +10,7 @@ public class GerenciadorVenda {
         this.quantidade = 0;
     }
 
-    public void finalizarVenda(int posicao) {
+    public void finalizar(int posicao) {
         if (posicao < 0 || posicao >= quantidade) {
             System.out.println("Venda não encontrada");
             return;
@@ -19,7 +19,7 @@ public class GerenciadorVenda {
         System.out.println("Venda finalizada: " + vendas[posicao]);
     }
 
-    public void cancelarVenda(int posicao) {
+    public void cancelar(int posicao) {
         if (posicao < 0 || posicao >= quantidade) {
             System.out.println("Venda não encontrada");
             return;
