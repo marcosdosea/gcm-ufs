@@ -1,4 +1,8 @@
-namespace GuilhermeSeixas
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace JoaoSilva
 {
     public class Cliente
     {
@@ -13,6 +17,15 @@ namespace GuilhermeSeixas
 
         public void Inserir(Cliente cliente)
         {
+            if (cliente == null)
+                throw new ArgumentNullException(nameof(cliente));
+
+            if (cliente.Id <= 0)
+                throw new ArgumentException("O Id do cliente deve ser maior que zero.", nameof(cliente));
+
+            if (clientes.Any(c => c.Id == cliente.Id))
+                throw new InvalidOperationException($"Já existe um cliente com o Id {cliente.Id}.");
+
             clientes.Add(cliente);
         }
 
