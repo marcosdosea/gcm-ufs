@@ -7,6 +7,7 @@ public class GerenciadorCliente {
 
     public String consultarCliente(int id) {
         System.out.println("Consultando cliente ID: " + id);
+        
         return "Cliente Encontrado";
     }
 
