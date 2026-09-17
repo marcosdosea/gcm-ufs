@@ -4,7 +4,8 @@ public class GerenciadorCliente {
         
     }
 
-    public void atualizarCliente(){
+    public void consultarCliente(){
         
     }
+
 }
