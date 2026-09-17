@@ -7,6 +7,12 @@ public class GerenciadorCliente {
     public static void cadastrarCliente() {
         System.out.println("Cliente cadastrado com sucesso!");
     }
+    public void AdicionarCliente(){
+
+    }
+    public void ConsultarCliente(){
+
+    }
 }
 
 //teste
