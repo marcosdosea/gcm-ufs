@@ -8,4 +8,12 @@ public class GerenciadorCliente {
         
     }
 
+    public void removerCliente(){
+
+    }
+
+    public void alterarCliente(){
+        
+    }
+
 }
