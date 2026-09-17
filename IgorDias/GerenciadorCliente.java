@@ -17,4 +17,22 @@ public class GerenciadorCliente {
 
         return clientes.get(posicao);
     }
+
+    public boolean remover(int posicao) {
+        if (posicao < 0 || posicao >= clientes.size()) {
+            return false;
+        }
+
+        clientes.remove(posicao);
+        return true;
+    }
+
+    public boolean alterar(int posicao, String cliente) {
+        if (posicao < 0 || posicao >= clientes.size()) {
+            return false;
+        }
+
+        clientes.set(posicao, cliente);
+        return true;
+    }
 }
