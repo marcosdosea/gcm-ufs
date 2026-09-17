@@ -34,3 +34,26 @@ public class GerenciadorVenda
         venda.Status = StatusVenda.Finalizada;
         return true;
     }
+
+    // ---------- Remover ----------
+public bool Remover(int id)
+{
+    var cliente = Consultar(id);
+    if (cliente == null)
+        return false;
+
+    _clientes.Remove(cliente);
+    return true;
+}
+// ---------- Alterar ----------
+public bool Alterar(int id, string novoNome, string novoEmail, string novoTelefone)
+{
+    var cliente = Consultar(id);
+    if (cliente == null)
+        return false;
+
+    cliente.Nome = novoNome;
+    cliente.Email = novoEmail;
+    cliente.Telefone = novoTelefone;
+    return true;
+}
