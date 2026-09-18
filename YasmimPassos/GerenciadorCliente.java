@@ -21,4 +21,23 @@ public class GerenciadorCliente {
         return null;
     }
 
+    public boolean remover(String id) {
+        Cliente cliente = consultar(id);
+        if (cliente != null) {
+            clientes.remove(cliente);
+            return true;
+        }
+        return false;
+    }
+ 
+    public boolean alterar(String id, String novoNome, String novoEmail) {
+        Cliente cliente = consultar(id);
+        if (cliente != null) {
+            cliente.setNome(novoNome);
+            cliente.setEmail(novoEmail);
+            return true;
+        }
+        return false;
+    }
+
 }
